@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FiUser, FiShoppingCart, FiSearch } from "react-icons/fi";
 import { LuHeart } from "react-icons/lu";
 
@@ -12,7 +12,10 @@ const Navbar = () => {
 
   const toggleDropdown = (index) => {
     setOpenDropdown(openDropdown === index ? null : index);
+
   };
+
+ 
 
   const dropdownOptions = [
     ["Cleaner", "Toner", "Scrum", "Moisturizer", "Sunscreen"],
@@ -24,7 +27,7 @@ const Navbar = () => {
   const categories = ["Face", "Eyes", "Hair", "Body Care"];
 
   return (
-    <div className="">
+    <div className="lg:mx-24">
       <header className="py-4 lg:px-0 px-4 bg-white w-full ">
         <div className="container flex items-center justify-between lg:h-8 h-6  ">
           <a
@@ -156,12 +159,12 @@ const Navbar = () => {
         </div>
 
         {/* Dropdown Options */}
-        <div className="p-4 space-y-4">
+        <div className="p-4 space-y-4 ">
           {categories.map((category, index) => (
             <div key={index}>
               <button
                 onClick={() => toggleDropdown(index)}
-                className="flex justify-between items-center w-full custom-font font-extrabold text-black text-xl py-2"
+                className="flex justify-between items-center w-full custom-font font-extrabold text-black text-xl py-2 border-b border-opacity-15 border-black"
               >
                 {category}
                 <svg

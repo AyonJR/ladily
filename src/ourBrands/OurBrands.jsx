@@ -46,32 +46,31 @@ const OurBrands = () => {
                   {/* Image Container */}
                   <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
                     {/* New Badge */}
-                    <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
-                      New
+                    <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
+                      30% <br />off
                     </span>
 
                     {/* Heart Icon */}
-                    <div className="absolute hidden top-2 right-2 transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
+                    <div className="absolute hidden lg:block top-2 right-2 transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
                       <LuHeart className="text-xl" />
                     </div>
 
                     {/* Product Image */}
                     <img
-                      src="https://i.ibb.co.com/YbdsSGM/0000101-the-ordinary-retinol-05-serum-415.png"
+                      src="https://i.ibb.co.com/QDn8H2g/0000022-cerave-hydrating-facial-cleanser-415-1.png"
                       alt="The Ordinary Retinol 0.5% Serum"
                       className="w-40 h-auto"
                     />
 
                     {/* Add to Cart Button */}
-                    <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 translate-y-full bg-customBrown text-white font-semibold py-3 w-full px-4 transition-all duration-300 hover:bg-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0 flex items-center justify-center">
+                    <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 translate-y-full bg-customBrown text-white font-semibold py-3 w-full px-4 transition-all duration-300 hover:bg-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0 hidden lg:flex items-center justify-center">
                       <FiShoppingCart className="mr-2 text-xl" />
                       ADD TO CART
                     </button>
                   </div>
 
                   <h3 className="lg:text-lg text-sm font-medium text-customBrown">
-                    The Ordinary Retinol 0.5%...
-                  </h3>
+                  CeraVe Moisturizing Cream                  </h3>
                   <div className="flex lg:flex-row flex-col items-center gap-2">
                     <div>
                       <div className="flex items-center">
@@ -96,9 +95,10 @@ const OurBrands = () => {
                       <p className="lg:text-base text-sm">0 Reviews</p>
                     </div>
                   </div>
-                  <p className="lg:text-lg text-sm font-medium text-customBrown">
-                    1,990.00
-                  </p>
+                  <div className="flex items-center">
+                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">2790.00৳</p>
+                      <p className="lg:text-lg text-sm font-medium text-customBrown">1,953.00৳</p>
+                    </div>
                 </div>
               </div>
               {/* second card */}
@@ -107,8 +107,8 @@ const OurBrands = () => {
                   {/* Image Container */}
                   <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
                     {/* New Badge */}
-                    <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
-                      New
+                    <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
+                      30% <br />off
                     </span>
 
                     {/* Heart Icon */}
@@ -118,21 +118,20 @@ const OurBrands = () => {
 
                     {/* Product Image */}
                     <img
-                      src="https://i.ibb.co.com/YbdsSGM/0000101-the-ordinary-retinol-05-serum-415.png"
+                      src="https://i.ibb.co.com/TT37SQz/0000146-cerave-moisturizing-cream-415-1.png"
                       alt="The Ordinary Retinol 0.5% Serum"
                       className="w-40 h-auto"
                     />
 
                     {/* Add to Cart Button */}
-                    <button className="absolute  bottom-1 left-1/2 transform -translate-x-1/2 translate-y-full bg-customBrown text-white font-semibold py-3 w-full px-4 transition-all duration-300 hover:bg-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0 flex items-center justify-center">
+                    <button className="absolute  bottom-1 left-1/2 transform -translate-x-1/2 translate-y-full bg-customBrown text-white font-semibold py-3 w-full px-4 transition-all duration-300 hover:bg-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0 hidden lg:flex items-center justify-center">
                       <FiShoppingCart className="mr-2 text-xl" />
                       ADD TO CART
                     </button>
                   </div>
 
                   <h3 className="lg:text-lg text-sm font-medium text-customBrown">
-                    The Ordinary Retinol 0.5%...
-                  </h3>
+                  CeraVe Moisturizing Cream                  </h3>
                   <div className="flex lg:flex-row flex-col items-center gap-2">
                     <div>
                       <div className="flex items-center">
@@ -157,9 +156,11 @@ const OurBrands = () => {
                       <p className="lg:text-base text-sm">0 Reviews</p>
                     </div>
                   </div>
-                  <p className="lg:text-lg text-sm font-medium text-customBrown">
-                    1,990.00
-                  </p>
+                  <div className="flex items-center">
+                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">3450.00৳</p>
+                      <p className="lg:text-lg text-sm font-medium text-customBrown">
+                        2,415.00৳</p>
+                    </div>
                 </div>
               </div>
 
@@ -174,26 +175,26 @@ const OurBrands = () => {
                     </span>
 
                     {/* Heart Icon */}
-                    <div className="absolute hidden top-2 right-2 transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
+                    <div className="absolute hidden lg:block top-2 right-2 transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
                       <LuHeart className="text-xl" />
                     </div>
 
                     {/* Product Image */}
                     <img
-                      src="https://i.ibb.co.com/YbdsSGM/0000101-the-ordinary-retinol-05-serum-415.png"
+                      src="https://i.ibb.co.com/sq2bJRm/0000058-cerave-moisturizing-cream-415-1.png"
                       alt="The Ordinary Retinol 0.5% Serum"
                       className="w-40 h-auto"
                     />
 
                     {/* Add to Cart Button */}
-                    <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 translate-y-full bg-customBrown text-white font-semibold py-3 w-full px-4 transition-all duration-300 hover:bg-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0 flex items-center justify-center">
+                    <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 translate-y-full bg-customBrown text-white font-semibold py-3 w-full px-4 transition-all duration-300 hover:bg-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0 hidden lg:flex items-center justify-center">
                       <FiShoppingCart className="mr-2 text-xl" />
                       ADD TO CART
                     </button>
                   </div>
 
                   <h3 className="lg:text-lg text-sm font-medium text-customBrown">
-                    The Ordinary Retinol 0.5%...
+                  CeraVe Moisturizing Cream
                   </h3>
                   <div className="flex lg:flex-row flex-col items-center gap-2">
                     <div>
@@ -220,7 +221,7 @@ const OurBrands = () => {
                     </div>
                   </div>
                   <p className="lg:text-lg text-sm font-medium text-customBrown">
-                    1,990.00
+                    1,890.00৳
                   </p>
                 </div>
               </div>

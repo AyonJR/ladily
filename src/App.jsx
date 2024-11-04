@@ -9,13 +9,15 @@ import NewArrivals from './newArrivals/NewArrivals'
 import OurBrands from './ourBrands/OurBrands'
 import Appoinment from './appoinment/Appoinment'
 import BestSelling from './bestSelling/BestSelling'
+import BestProducts from './bestProducts/BestProducts'
+import Footer from './footer/Footer'
 
 
 function App() {
 
   return (
     <div>
-     <div className='lg:mx-24'>
+     <div className=''>
       <Navbar></Navbar>
      </div>
      <div className=''>
@@ -42,6 +44,12 @@ function App() {
      </div>
      <div className='lg:mt-20 mt-12 lg:mx-24 '>
      <BestSelling></BestSelling>
+     </div>
+     <div className='lg:mt-20 mt-12 lg:mx-24 mx-4 '>
+     <BestProducts></BestProducts>
+     </div>
+     <div className='lg:mt-20 mt-12  '>
+     <Footer></Footer>
      </div>
      </div>
     </div>
