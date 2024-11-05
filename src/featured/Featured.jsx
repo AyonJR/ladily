@@ -31,23 +31,25 @@ const Featured = () => {
 
   return (
     <div>
-      <div className="flex justify-center custom-font ">
-        <h2 className="lg:text-2xl text-lg font-bold">Featured Categories</h2>
+      <div className="flex justify-center custom-font lg:ml-[5px] ">
+        <h2 className="lg:text-[25px] text-lg font-bold">
+          Featured Categories
+        </h2>
       </div>
       {/* a line div */}
       <div className="flex justify-center ">
-        <hr className="w-[83px]  bg-opacity-50 bg-customBrown h-[3px] relative lg:right-28 md:right-24 right-24 " />
+        <hr className="w-[80px]  bg-opacity-50 bg-customBrown h-[3px] relative lg:right-[120px] md:right-24 right-24 " />
       </div>
-      <div className="lg:mt-8 mt-6">
+      <div className="lg:mt-6 mt-6">
         <div className="flex justify-center lg:px-4  custom-font">
-          <h2 className="text-xl md:text-2xl lg:text-4xl font-bold text-center">
+          <h2 className="text-xl md:text-2xl lg:ml-2 lg:text-4xl font-bold text-center">
             Treat Your Skin Concern with Hanbang + Modern Ingredients
           </h2>
         </div>
 
         {/* tab */}
-        <div className="lg:mt-8 mt-6 ">
-          <div className="flex items-center lg:gap-12 gap-8  overflow-x-auto overflow-y-hidden justify-center flex-wrap custom-font font-bold lg:text-xl text-lg  dark:text-black">
+        <div className="lg:mt-[22px] mt-6 ">
+          <div className="flex items-center lg:ml-[8px] lg:gap-[42px] gap-[30px]  overflow-x-auto overflow-y-hidden justify-center flex-wrap custom-font font-semibold lg:text-xl text-lg  dark:text-black">
             <a
               rel="noopener noreferrer"
               href="#"
@@ -95,16 +97,16 @@ const Featured = () => {
         </div>
 
         {/* sliders */}
-        <div className="mt-3 lg:mx-24 ">
+        <div className="mt-3 lg:mx-[108px] ">
           {/* flex div */}
-          <div className="flex lg:flex-row flex-col w-full gap-5 ">
+          <div className="flex lg:flex-row flex-col w-full gap-[10px] lg:gap-5 ">
             {/* image div */}
-            <div className="lg:w-1/4 w-full lg:px-0 px-4 ">
+            <div className="lg:w-[27%] w-full lg:px-0 px-[25px] ">
               <div className="relative">
                 <img
                   src="https://i.ibb.co.com/TWs3VKr/0000151-face.jpg"
                   alt=""
-                  className="w-full lg:h-auto h-32 object-cover"
+                  className=" w-full lg:h-auto h-32 object-cover"
                 />
                 <div className="absolute inset-0 bg-black opacity-20"></div>
 
@@ -129,7 +131,7 @@ const Featured = () => {
             </div>
 
             {/* swiper slider div */}
-            <div className="lg:w-3/4 w-full  lg:px-0 px-4">
+            <div className="lg:w-[73%] w-full  lg:px-0 px-[25px]">
               <Swiper
                 onSwiper={onSwiperInit}
                 slidesPerView={3} // Default view for larger screens
@@ -168,13 +170,14 @@ const Featured = () => {
                 className="mySwiper w-full"
               >
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
-                      30% <br />off
-                    </span>
+                        30% <br />
+                        Off
+                      </span>
 
                       {/* Heart Icon */}
                       <div className="absolute top-2 right-2 hidden lg:block transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
@@ -185,7 +188,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/QDn8H2g/0000022-cerave-hydrating-facial-cleanser-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className=" w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -195,26 +198,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       CeraVe Hydrating Facial...
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -223,20 +226,25 @@ const Featured = () => {
                       </div>
                     </div>
                     <div className="flex items-center">
-                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">2790.00৳</p>
-                      <p className="lg:text-lg text-sm font-medium text-customBrown">1,953.00৳</p>
+                      <p className="line-through lg:text-lg text-[12px] text-gray-500 mr-2">
+                        2,790.00৳
+                      </p>
+                      <p className="lg:text-lg text-[12px] font-medium text-customBrown">
+                        1,953.00৳
+                      </p>
                     </div>
                   </div>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
-                      30% <br />off
-                    </span>
+                        30% <br />
+                        off
+                      </span>
 
                       {/* Heart Icon */}
                       <div className="absolute top-2 right-2 hidden lg:block transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
@@ -258,7 +266,7 @@ const Featured = () => {
                     </div>
 
                     <h3 className="lg:text-lg text-sm font-medium text-customBrown">
-                    CeraVe Moisturizing Cream 
+                      CeraVe Moisturizing Cream
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
@@ -285,8 +293,12 @@ const Featured = () => {
                       </div>
                     </div>
                     <div className="flex items-center">
-                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">3450.00৳</p>
-                      <p className="lg:text-lg text-sm font-medium text-customBrown">2,415.00৳</p>
+                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">
+                        3450.00৳
+                      </p>
+                      <p className="lg:text-lg text-sm font-medium text-customBrown">
+                        2,415.00৳
+                      </p>
                     </div>
                   </div>
                 </SwiperSlide>
@@ -298,8 +310,9 @@ const Featured = () => {
                     <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
-                      50% <br />off
-                    </span>
+                        50% <br />
+                        off
+                      </span>
 
                       {/* Heart Icon */}
                       <div className="absolute top-2 right-2 hidden lg:block transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
@@ -321,7 +334,7 @@ const Featured = () => {
                     </div>
 
                     <h3 className="lg:text-lg text-sm font-medium text-customBrown">
-                    Cetaphil Daily Facial Cleanser
+                      Cetaphil Daily Facial Cleanser
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
@@ -348,21 +361,25 @@ const Featured = () => {
                       </div>
                     </div>
                     <div className="flex items-center">
-                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">3845.00৳</p>
+                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">
+                        3845.00৳
+                      </p>
                       <p className="lg:text-lg text-sm font-medium text-customBrown">
-                        1,923.00৳</p>
+                        1,923.00৳
+                      </p>
                     </div>
                   </div>
                 </SwiperSlide>
-               
+
                 <SwiperSlide>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
-                      50% <br />off
-                    </span>
+                        50% <br />
+                        off
+                      </span>
 
                       {/* Heart Icon */}
                       <div className="absolute top-2 right-2 hidden lg:block transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
@@ -384,7 +401,7 @@ const Featured = () => {
                     </div>
 
                     <h3 className="lg:text-lg text-sm font-medium text-customBrown">
-                    CeraVe Moisturizing Cream 
+                      CeraVe Moisturizing Cream
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
@@ -421,8 +438,9 @@ const Featured = () => {
                     <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
-                      50% <br />off
-                    </span>
+                        50% <br />
+                        off
+                      </span>
 
                       {/* Heart Icon */}
                       <div className="absolute top-2 right-2 hidden lg:block transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
@@ -715,7 +733,7 @@ const Featured = () => {
                     </p>
                   </div>
                 </SwiperSlide>
-                <div className="mt-10"></div>
+                <div className="mt-10 lg:mt-12"></div>
               </Swiper>
             </div>
           </div>

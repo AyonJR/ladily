@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FiUser, FiShoppingCart, FiSearch } from "react-icons/fi";
 import { LuHeart } from "react-icons/lu";
+import { RiSearchLine } from "react-icons/ri";
 
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -27,31 +28,31 @@ const Navbar = () => {
   const categories = ["Face", "Eyes", "Hair", "Body Care"];
 
   return (
-    <div className="lg:mx-24">
-      <header className="py-4 lg:px-0 px-4 bg-white w-full ">
-        <div className="container flex items-center justify-between lg:h-8 h-6  ">
+    <div className="lg:mx-[100px]">
+      <header className="py-[16px] lg:px-0  bg-white w-full ">
+        <div className="container flex items-center justify-between lg:h-[30px] h-5  ">
           <a
             rel="noopener noreferrer"
             href="#"
             aria-label="Back to homepage"
-            className="flex items-center p-2"
+            className="flex items-center  lg:pl-2 pl-[24px]"
           >
             <img
-              className="lg:w-24 w-[85px]"
+              className="lg:w-[100px] lg:h-[34px] h-[31px] w-[90px] lg:ml-0 ml-[1px] "
               src="https://i.ibb.co/CmB8H54/0000005-ladily.png"
               alt=""
             />
           </a>
 
           {/* Icons and hamburger for mobile view */}
-          <div className="flex items-center space-x-5 md:hidden justify-end flex-grow">
+          <div className="flex items-center  space-x-5  md:hidden justify-end  flex-grow ">
             <a href="#">
               <FiUser className="text-lg" />
             </a>
             <div className="relative">
               <a href="#">
-                <LuHeart className="text-lg" />
-                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-xs font-bold rounded-full h-4 w-4 flex items-center justify-center">
+                <LuHeart className="text-lg " />
+                <span className="absolute -top-2 -right-2  bg-customBrown text-white text-xs  rounded-full h-4 w-4 flex items-center justify-center">
                   0
                 </span>
               </a>
@@ -59,12 +60,12 @@ const Navbar = () => {
             <div className="relative">
               <a href="#">
                 <FiShoppingCart className="text-lg" />
-                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-xs font-bold rounded-full h-4 w-4 flex items-center justify-center">
+                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">
                   0
                 </span>
               </a>
             </div>
-            <button onClick={toggleDrawer} className="p-4">
+            <button onClick={toggleDrawer} className="lg:p-4 py-4 pr-5">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -83,17 +84,17 @@ const Navbar = () => {
           </div>
 
           {/* Icons for larger screens */}
-          <ul className="hidden md:flex gap-5 items-center">
-            <li className="flex items-center border-b border-customBrown w-[280px]">
+          <ul className="hidden md:flex gap-5  items-center lg:my-[6px] lg:mr-[2px]">
+            <li className="flex items-center  lg:mb-2 border-b border-customBrown w-[300px]">
               <input
-                className="w-full py-1 pr-8 outline-none font-bold placeholder-black custom-font"
+                className="w-full py-[2px] pr-8 outline-none font-bold placeholder-black custom-font"
                 type="search"
                 name="Search"
                 placeholder="Search in Ladily"
               />
-              <FiSearch className="text-lg" />
+              <RiSearchLine className="text-lg" />
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center lg:ml-1">
               <a href="#">
                 <FiUser className="text-lg" />
               </a>
@@ -101,7 +102,7 @@ const Navbar = () => {
             <li className="relative flex items-center">
               <a href="#">
                 <LuHeart className="text-lg" />
-                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-xs font-bold rounded-full h-4 w-4 flex items-center justify-center">
+                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-[10px]  rounded-full h-4 w-4 flex items-center jost-font justify-center">
                   0
                 </span>
               </a>
@@ -109,7 +110,7 @@ const Navbar = () => {
             <li className="relative flex items-center">
               <a href="#">
                 <FiShoppingCart className="text-lg" />
-                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-xs font-bold rounded-full h-4 w-4 flex items-center justify-center">
+                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-[10px]  rounded-full h-4 w-4 flex jost-font items-center justify-center">
                   0
                 </span>
               </a>

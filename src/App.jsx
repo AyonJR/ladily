@@ -29,7 +29,7 @@ function App() {
      <div className='lg:mt-20 mt-12'>
       <Featured></Featured>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-24 '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] '>
      <Advertise></Advertise>
      </div>
      <div className='lg:mt-20 mt-12 lg:mx-24 mx-4 '>

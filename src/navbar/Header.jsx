@@ -22,9 +22,9 @@ const Header = () => {
   ];
 
   return (
-    <div className="lg:h-8 h-0 custom-font lg:block hidden ">
+    <div className="lg:h-[20px] h-0 custom-font lg:block hidden ">
       <div className="border-customBrown border-t border-opacity-20 ">
-        <div className="flex justify-center gap-16 lg:py-4 p-0">
+        <div className="flex justify-center gap-[51px] lg:py-[16px] p-0 lg:ml-[55px]">
           {["Face", "Eyes", "Hair", "Body Care"].map((menu, index) => (
             <div
               key={index}
@@ -32,14 +32,14 @@ const Header = () => {
               onMouseEnter={() => handleMouseEnter(index)}
               onMouseLeave={handleMouseLeave}
             >
-              <button className="flex items-center font-bold text-black text-xl hover:text-opacity-80">
+              <button className="flex items-center font-semibold text-black text-[20px] hover:text-opacity-80">
                 {menu}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
-                  className={`w-4 h-4 ml-1 transition-transform ${
+                  className={`w-4 h-4 ml-[9px] transition-transform ${
                     openDropdown === index ? "rotate-180" : ""
                   }`}
                 >
