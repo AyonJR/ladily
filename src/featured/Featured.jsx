@@ -152,7 +152,7 @@ const Featured = () => {
                   },
                   768: {
                     // Small tablets
-                    slidesPerView: 2,
+                    slidesPerView: 3,
                     spaceBetween: 20,
                   },
                   1024: {
@@ -174,7 +174,7 @@ const Featured = () => {
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
+                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         30% <br />
                         Off
                       </span>
@@ -241,7 +241,7 @@ const Featured = () => {
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
+                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         30% <br />
                         off
                       </span>
@@ -255,7 +255,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/TT37SQz/0000146-cerave-moisturizing-cream-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className="w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -265,26 +265,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       CeraVe Moisturizing Cream
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -293,10 +293,10 @@ const Featured = () => {
                       </div>
                     </div>
                     <div className="flex items-center">
-                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">
-                        3450.00৳
+                      <p className="line-through lg:text-lg text-[12px] text-gray-500 mr-2">
+                        3,450.00৳
                       </p>
-                      <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                         2,415.00৳
                       </p>
                     </div>
@@ -305,11 +305,11 @@ const Featured = () => {
 
                 {/* Additional slides */}
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
+                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         50% <br />
                         off
                       </span>
@@ -323,7 +323,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/ZmY0Cmd/0000039-cetaphil-daily-facial-cleanser-415-1.jpg"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className="w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -333,26 +333,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       Cetaphil Daily Facial Cleanser
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -361,10 +361,10 @@ const Featured = () => {
                       </div>
                     </div>
                     <div className="flex items-center">
-                      <p className="line-through lg:text-lg text-sm text-gray-500 mr-2">
-                        3845.00৳
+                      <p className="line-through lg:text-lg text-[12px] text-gray-500 mr-2">
+                        3,845.00৳
                       </p>
-                      <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                         1,923.00৳
                       </p>
                     </div>
@@ -372,11 +372,11 @@ const Featured = () => {
                 </SwiperSlide>
 
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
+                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         50% <br />
                         off
                       </span>
@@ -390,7 +390,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/sq2bJRm/0000058-cerave-moisturizing-cream-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className="w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -400,26 +400,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       CeraVe Moisturizing Cream
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -427,17 +427,17 @@ const Featured = () => {
                         <p className="lg:text-base text-sm">0 Reviews</p>
                       </div>
                     </div>
-                    <p className="lg:text-lg text-sm font-medium text-customBrown">
+                    <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       1,890.00৳
                     </p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
+                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                         50% <br />
                         off
                       </span>
@@ -451,7 +451,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/YhrnVvK/0000064-the-ordinary-glycolic-acid-7-exfoliating-toner-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className="w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -461,26 +461,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       The Ordinary Glycolic Acid 7...
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -488,17 +488,17 @@ const Featured = () => {
                         <p className="lg:text-base text-sm">0 Reviews</p>
                       </div>
                     </div>
-                    <p className="lg:text-lg text-sm font-medium text-customBrown">
+                    <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       1,950.00৳
                     </p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
+                      <span className="absolute top-0 left-0 bg-customBrown text-white text-[10px] lg:text-xs font-semibold px-4 py-2">
                         New
                       </span>
 
@@ -511,7 +511,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/nnqP3Cd/0000156-the-ordinary-multi-peptide-ha-serum-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className="w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -521,26 +521,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       The Ordinary Multi-Peptide
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -548,17 +548,17 @@ const Featured = () => {
                         <p className="lg:text-base text-sm">0 Reviews</p>
                       </div>
                     </div>
-                    <p className="lg:text-lg text-sm font-medium text-customBrown">
+                    <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       3,150.00৳
                     </p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
+                      <span className="absolute top-0 left-0 bg-customBrown text-white text-[10px] lg:text-xs font-semibold px-4 py-2">
                         New
                       </span>
 
@@ -571,7 +571,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/Jx9kVrq/0000089-the-ordinary-niacinamide-10-zinc-1-serum-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className="w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -581,26 +581,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       The Ordinary Niacinamide...
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -608,17 +608,17 @@ const Featured = () => {
                         <p className="lg:text-base text-sm">0 Reviews</p>
                       </div>
                     </div>
-                    <p className="lg:text-lg text-sm font-medium text-customBrown">
+                    <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       1,550.00৳
                     </p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
+                      <span className="absolute top-0 left-0 bg-customBrown text-white text-[10px] lg:text-xs font-semibold px-4 py-2">
                         New
                       </span>
 
@@ -631,7 +631,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/FWNTRZK/0000094-the-ordinary-aha-30-bha-2-peeling-solution-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className="w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -641,26 +641,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       The Ordinary AHA 30% +...
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -668,17 +668,17 @@ const Featured = () => {
                         <p className="lg:text-base text-sm">0 Reviews</p>
                       </div>
                     </div>
-                    <p className="lg:text-lg text-sm font-medium text-customBrown">
+                    <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       1,990.00৳
                     </p>
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                       {/* New Badge */}
-                      <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
+                      <span className="absolute top-0 left-0 bg-customBrown text-white text-[10px] lg:text-xs font-semibold px-4 py-2">
                         New
                       </span>
 
@@ -691,7 +691,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/D4q4v8t/0000101-the-ordinary-retinol-05-serum-415-1-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-40 h-auto"
+                        className="w-[170px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -701,26 +701,26 @@ const Featured = () => {
                       </button>
                     </div>
 
-                    <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+                    <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                       The Ordinary Retinol 0.5%...
                     </h3>
                     <div className="flex lg:flex-row flex-col items-center gap-2">
                       <div>
                         <div className="flex items-center">
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                           <span>
-                            <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
                           </span>
                         </div>
                       </div>
@@ -728,12 +728,12 @@ const Featured = () => {
                         <p className="lg:text-base text-sm">0 Reviews</p>
                       </div>
                     </div>
-                    <p className="lg:text-lg text-sm font-medium text-customBrown">
+                    <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       1,990.00৳
                     </p>
                   </div>
                 </SwiperSlide>
-                <div className="mt-10 lg:mt-12"></div>
+                <div className="mt-11 lg:mt-12"></div>
               </Swiper>
             </div>
           </div>

@@ -20,10 +20,10 @@ const Banner = () => {
         loop={true}
       >
         <SwiperSlide>
-          <div className="flex flex-col lg:flex-row  lg:gap-2 bg-customPink lg:h-[78vh] h-[48vh] w-full">
+          <div className="flex flex-col lg:flex-row  lg:gap-2 bg-customPink  lg:h-[78vh] h-[280px] w-full">
             {/* Left Side Content */}
             <div className="w-full lg:w-1/2 flex lg:gap-2 gap-3 flex-col items-center lg:items-start justify-center lg:ml-[108px] lg:px-0 px-6 text-center lg:text-left  lg:mt-0 lg:mb-0 mt-auto mb-auto ">
-              <h2 className="text-2xl lg:text-[58px] mt-4 lg:mt-2 custom-font text-customBrown font-semibold leading-[1] lg:leading-[1.2]">
+              <h2 className="text-2xl  lg:text-[58px] mt-4 lg:mt-2 custom-font text-customBrown font-semibold leading-[1] lg:leading-[1.2]">
                 Book An Appointment <br className="hidden lg:block" />
                 To Schedule A Consultation With Sajia Tonny.
               </h2>
@@ -63,7 +63,7 @@ const Banner = () => {
 
         {/* Repeat for other SwiperSlides */}
         <SwiperSlide>
-          <div className="flex flex-col lg:gap-2 lg:flex-row bg-customPink lg:h-[78vh] h-[48vh] w-full">
+          <div className="flex flex-col lg:gap-2 lg:flex-row bg-customPink lg:h-[78vh] h-[280px] w-full">
             {/* Left Side Content */}
             <div className="w-full lg:w-1/2 gap-3 flex flex-col items-center lg:items-start justify-center lg:ml-[108px] lg:px-0 px-6 text-center lg:text-left  mt-auto mb-auto">
               <h2 className="text-2xl lg:text-[58px]  custom-font text-customBrown font-semibold lg:leading-[1.2]">
@@ -105,7 +105,7 @@ const Banner = () => {
 
         {/* Additional SwiperSlide */}
         <SwiperSlide>
-          <div className="flex flex-col lg:flex-row bg-customPink h-[48vh] lg:h-[78vh] w-full">
+          <div className="flex flex-col lg:flex-row bg-customPink h-[280px] lg:h-[78vh] w-full">
             {/* Left Side Content */}
             <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center lg:gap-[2px] gap-2 lg:mx-0  lg:ml-[108px] lg:px-0 px-6 text-center lg:text-left  mt-auto mb-auto">
               <h2 className="text-2xl lg:text-[58px] custom-font text-customBrown font-semibold lg:leading-[1.2] lg:mb-2">

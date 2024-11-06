@@ -32,20 +32,20 @@ function App() {
      <div className='lg:mt-20 mt-12 lg:mx-[108px] '>
      <Advertise></Advertise>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-24 mx-4 '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] mx-6 '>
      <NewArrivals></NewArrivals>
      </div>
      <div>
       <OurBrands></OurBrands>
      </div>
      <div>
-     <div className='lg:mt-20 mt-12 lg:mx-24 '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] '>
      <Appoinment></Appoinment>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-24 '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] '>
      <BestSelling></BestSelling>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-24 mx-4 '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] mx-6 '>
      <BestProducts></BestProducts>
      </div>
      <div className='lg:mt-20 mt-12  '>

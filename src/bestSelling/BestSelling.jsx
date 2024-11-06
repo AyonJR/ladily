@@ -6,7 +6,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const BestSelling = () => {
   return (
-    <div className="lg:mx-0 mx-4">
+    <div className="lg:mx-0 mx-6">
       <div className="flex justify-between  custom-font lg:px-0">
         <h2 className="lg:text-4xl text-customBrown text-2xl font-bold lg:ml-32 md:ml-24 ml-16">
           Best Selling Categories

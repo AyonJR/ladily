@@ -31,14 +31,14 @@ const NewArrivals = () => {
   return (
     <div>
       <div className="flex justify-between  custom-font lg:px-0">
-        <h2 className="lg:text-4xl text-customBrown text-2xl font-bold lg:ml-32 md:ml-24 ml-16">
+        <h2 className="lg:text-4xl text-customBrown text-2xl font-bold lg:ml-[110px] md:ml-24 ml-16">
           New Arrivals
         </h2>
         <p className="text-customBrown text-lg font-bold">View All</p>
       </div>
       {/* a line div */}
       <div className="flex justify-start ">
-        <hr className="lg:w-[150px] md:w-[120px] w-[80px]  bg-opacity-50 bg-customBrown h-[4px] relative  " />
+        <hr className="lg:w-[132px] md:w-[120px] w-[80px]  bg-opacity-50 bg-customBrown h-[4px] relative  " />
       </div>
       {/* slider button */}
       <div className="  lg:block hidden">
@@ -98,9 +98,9 @@ const NewArrivals = () => {
           className="mySwiper w-full"
         >
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -115,7 +115,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/sq2bJRm/0000058-cerave-moisturizing-cream-415-1.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -125,41 +125,41 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
               CeraVe Moisturizing Cream              </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -174,7 +174,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/YhrnVvK/0000064-the-ordinary-glycolic-acid-7-exfoliating-toner-415-1.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -184,43 +184,43 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                 The Ordinary Glycolic Acid 7%...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
           </SwiperSlide>
           {/* Additional slides */}
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -235,7 +235,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/YbdsSGM/0000101-the-ordinary-retinol-05-serum-415.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -245,42 +245,42 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                 The Ordinary Multi-Peptide E...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -295,7 +295,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/187DsMn/0000078-the-ordinary-multi-peptide-hair-serum-415.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -305,34 +305,34 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
               The Ordinary Multi-Peptide...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
@@ -340,9 +340,9 @@ const NewArrivals = () => {
 
 
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -357,7 +357,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/nnqP3Cd/0000156-the-ordinary-multi-peptide-ha-serum-415-1.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -367,42 +367,42 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
               The Ordinary Multi-Peptide +...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -417,7 +417,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/Jx9kVrq/0000089-the-ordinary-niacinamide-10-zinc-1-serum-415-1.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -427,34 +427,34 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                 The Ordinary Niacinamide 1...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
@@ -462,9 +462,9 @@ const NewArrivals = () => {
           
           
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -479,7 +479,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/FWNTRZK/0000094-the-ordinary-aha-30-bha-2-peeling-solution-415-1.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -489,42 +489,42 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                 The Ordinary AHA 30% + B...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -539,7 +539,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/D4q4v8t/0000101-the-ordinary-retinol-05-serum-415-1-1.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -549,42 +549,42 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                 The Ordinary Retinol 0.5%...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -599,7 +599,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/4gWvN7n/0000114-neutrogena-rapid-wrinkle-repair-cream-415-1.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -609,42 +609,42 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                 Neutrogena Rapid Wrinkle...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
           </SwiperSlide>{" "}
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full flex items-center justify-center py-12 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -659,7 +659,7 @@ const NewArrivals = () => {
                 <img
                   src="https://i.ibb.co.com/RDY8m3g/0000121-differin-adapalene-01-acne-treatment-gel-415.png"
                   alt="The Ordinary Retinol 0.5% Serum"
-                  className="w-40 h-auto"
+                  className="w-[170px] h-auto"
                 />
 
                 {/* Add to Cart Button */}
@@ -669,34 +669,34 @@ const NewArrivals = () => {
                 </button>
               </div>
 
-              <h3 className="lg:text-lg text-sm font-medium text-customBrown">
+              <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
                 Differin Adapalene 0.1% Acn...
               </h3>
               <div className="flex lg:flex-row flex-col items-center gap-2">
-                <div>
-                  <div className="flex items-center">
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                    <span>
-                      <MdStar className="lg:text-lg text-sm text-[#CFCFCE]" />
-                    </span>
-                  </div>
-                </div>
-                <div>
-                  <p className="lg:text-base text-sm">0 Reviews</p>
-                </div>
-              </div>
-              <p className="lg:text-lg text-sm font-medium text-customBrown">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0 Reviews</p>
+                      </div>
+                    </div>
+              <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
             </div>
@@ -705,7 +705,7 @@ const NewArrivals = () => {
         </Swiper>
       </div>
 
-      <div className="mt-10"></div>
+      <div className="mt-16"></div>
     </div>
   );
 };

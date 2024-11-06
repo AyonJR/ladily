@@ -3,7 +3,7 @@ import React from "react";
 const Appoinment = () => {
   return (
     <div>
-      <div className=" w-full lg:px-0 px-4">
+      <div className=" w-full lg:px-0 px-6">
         <div className="flex justify-center w-full">
           <img
             className="w-full"

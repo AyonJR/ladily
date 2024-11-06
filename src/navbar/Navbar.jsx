@@ -28,7 +28,7 @@ const Navbar = () => {
   const categories = ["Face", "Eyes", "Hair", "Body Care"];
 
   return (
-    <div className="lg:mx-[100px]">
+    <div className="lg:mx-[100px] md:mx-8">
       <header className="py-[16px] lg:px-0  bg-white w-full ">
         <div className="container flex items-center justify-between lg:h-[30px] h-5  ">
           <a
@@ -52,7 +52,7 @@ const Navbar = () => {
             <div className="relative">
               <a href="#">
                 <LuHeart className="text-lg " />
-                <span className="absolute -top-2 -right-2  bg-customBrown text-white text-xs  rounded-full h-4 w-4 flex items-center justify-center">
+                <span className="absolute -top-2 -right-2  bg-customBrown text-white text-[10px]  rounded-full h-4 w-4 flex jost-font items-center justify-center">
                   0
                 </span>
               </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
             <div className="relative">
               <a href="#">
                 <FiShoppingCart className="text-lg" />
-                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-xs rounded-full h-4 w-4 flex items-center justify-center">
+                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-[10px] rounded-full h-4 w-4 flex jost-font items-center justify-center">
                   0
                 </span>
               </a>
