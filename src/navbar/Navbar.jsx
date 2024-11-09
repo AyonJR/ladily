@@ -28,9 +28,9 @@ const Navbar = () => {
   const categories = ["Face", "Eyes", "Hair", "Body Care"];
 
   return (
-    <div className="lg:mx-[100px] md:mx-8">
-      <header className="py-[16px] lg:px-0  bg-white w-full ">
-        <div className="container flex items-center justify-between lg:h-[30px] h-5  ">
+    <div className="container mx-auto px-0 xl:px-[24px] 2xl:px-[11px] lg:px-[8px] md:px-0">
+  <header className="py-4 bg-white w-full">
+    <div className="flex items-center justify-between lg:h-[30px] h-5">
           <a
             rel="noopener noreferrer"
             href="#"
@@ -45,7 +45,7 @@ const Navbar = () => {
           </a>
 
           {/* Icons and hamburger for mobile view */}
-          <div className="flex items-center  space-x-5  md:hidden justify-end  flex-grow ">
+          <div className="flex items-center xl:hidden md:hidden  space-x-5   justify-end  flex-grow ">
             <a href="#">
               <FiUser className="text-lg" />
             </a>

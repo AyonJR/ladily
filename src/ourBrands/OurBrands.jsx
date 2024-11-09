@@ -46,7 +46,7 @@ const OurBrands = () => {
                     {/* Image Container */}
                     <div className="w-full flex items-center justify-center bg-[#F7F7F7] lg:py-10 relative lg:border-b-[35px] py-5 border-white">
                       {/* New Badge */}
-                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs px-3 py-2">
+                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                         30% <br />
                         Off
                       </span>
@@ -60,7 +60,7 @@ const OurBrands = () => {
                       <img
                         src="https://i.ibb.co.com/hXLpFw4/0000022-cerave-hydrating-facial-cleanser-415-2.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="lg:w-[140px] w-[170px] h-auto mb-2" 
+                        className="xl:w-[140px] lg:w-[140px] md:w-[140px] 2xl:w-[140px] w-[135px]  h-auto mb-2" 
                       />
 
                       {/* Add to Cart Button */}
@@ -114,7 +114,7 @@ const OurBrands = () => {
                     {/* Image Container */}
                     <div className="w-full flex items-center justify-center bg-[#F7F7F7] lg:py-10 relative lg:border-b-[35px] py-5 border-white">
                       {/* New Badge */}
-                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-xs  px-3 py-2">
+                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                         30% <br />
                         Off
                       </span>
@@ -128,7 +128,7 @@ const OurBrands = () => {
                       <img
                         src="https://i.ibb.co.com/TT37SQz/0000146-cerave-moisturizing-cream-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="lg:w-[140px] w-[170px] h-auto mb-2"
+                        className="xl:w-[140px] lg:w-[140px] md:w-[140px] 2xl:w-[140px] w-[135px]  h-auto mb-2" 
                       />
 
                       {/* Add to Cart Button */}
@@ -195,7 +195,7 @@ const OurBrands = () => {
                       <img
                         src="https://i.ibb.co.com/sq2bJRm/0000058-cerave-moisturizing-cream-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="lg:w-[140px] w-[170px] h-auto mb-2"
+                        className="xl:w-[140px] lg:w-[140px] md:w-[140px] 2xl:w-[140px] w-[135px]  h-auto mb-2" 
                       />
 
                       {/* Add to Cart Button */}

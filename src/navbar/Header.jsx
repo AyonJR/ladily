@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <div className="lg:h-[20px] h-0 custom-font lg:block hidden ">
       <div className="border-customBrown border-t border-opacity-20 ">
-        <div className="flex justify-center gap-[51px] lg:py-[16px] p-0 lg:ml-[55px]">
+        <div className="flex justify-center gap-[51px] lg:py-[16px] p-0 lg:ml-[55px] 2xl:ml-[48px]">
           {["Face", "Eyes", "Hair", "Body Care"].map((menu, index) => (
             <div
               key={index}

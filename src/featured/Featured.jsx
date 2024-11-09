@@ -188,7 +188,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/QDn8H2g/0000022-cerave-hydrating-facial-cleanser-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className=" w-[170px] h-auto"
+                        className=" xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -243,7 +243,7 @@ const Featured = () => {
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         30% <br />
-                        off
+                        Off
                       </span>
 
                       {/* Heart Icon */}
@@ -255,7 +255,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/TT37SQz/0000146-cerave-moisturizing-cream-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-[170px] h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -311,7 +311,7 @@ const Featured = () => {
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         50% <br />
-                        off
+                        Off
                       </span>
 
                       {/* Heart Icon */}
@@ -323,7 +323,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/ZmY0Cmd/0000039-cetaphil-daily-facial-cleanser-415-1.jpg"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-[170px] h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -378,7 +378,7 @@ const Featured = () => {
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         50% <br />
-                        off
+                        Off
                       </span>
 
                       {/* Heart Icon */}
@@ -390,7 +390,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/sq2bJRm/0000058-cerave-moisturizing-cream-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-[170px] h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -439,7 +439,7 @@ const Featured = () => {
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                         50% <br />
-                        off
+                        Off
                       </span>
 
                       {/* Heart Icon */}
@@ -451,7 +451,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/YhrnVvK/0000064-the-ordinary-glycolic-acid-7-exfoliating-toner-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-[170px] h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -511,7 +511,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/nnqP3Cd/0000156-the-ordinary-multi-peptide-ha-serum-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-[170px] h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -571,7 +571,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/Jx9kVrq/0000089-the-ordinary-niacinamide-10-zinc-1-serum-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-[170px] h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -631,7 +631,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/FWNTRZK/0000094-the-ordinary-aha-30-bha-2-peeling-solution-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-[170px] h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -691,7 +691,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/D4q4v8t/0000101-the-ordinary-retinol-05-serum-415-1-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className="w-[170px] h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
                       />
 
                       {/* Add to Cart Button */}
