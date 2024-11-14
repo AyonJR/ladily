@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import './index.css'
+import Details from './detailsRoute/Details.jsx';
 
 
 
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <App></App>,
   },
+  {
+    path: "/details",
+    element: <Details></Details>,
+  },
 ]);
 
 
@@ -21,6 +26,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-  </StrictMode>,
+    <RouterProvider router={router} />
+    </StrictMode>,
 )

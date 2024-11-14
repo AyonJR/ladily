@@ -29,23 +29,23 @@ function App() {
      <div className='lg:mt-20 mt-12'>
       <Featured></Featured>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] 2xl:mx-[40px] '>
      <Advertise></Advertise>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] mx-6 '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] 2xl:mx-[40px] mx-6 '>
      <NewArrivals></NewArrivals>
      </div>
      <div>
       <OurBrands></OurBrands>
      </div>
      <div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] 2xl:mx-[40px] '>
      <Appoinment></Appoinment>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] 2xl:mx-[40px] '>
      <BestSelling></BestSelling>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] mx-6 '>
+     <div className='lg:mt-20 mt-12 lg:mx-[108px] mx-6  2xl:mx-[40px]'>
      <BestProducts></BestProducts>
      </div>
      <div className='lg:mt-20 mt-12  '>

@@ -79,7 +79,7 @@ const Featured = () => {
         </div>
 
         {/* slider button */}
-        <div className="mt-2 lg:mx-24 lg:block hidden">
+        <div className="mt-2 lg:mx-24 2xl:mx-[40px] lg:block hidden">
           <div className="flex justify-end">
             <div className="flex gap-2">
               <div>
@@ -97,7 +97,7 @@ const Featured = () => {
         </div>
 
         {/* sliders */}
-        <div className="mt-3 lg:mx-[108px] ">
+        <div className="mt-3 lg:mx-[108px] 2xl:mx-[40px]  ">
           {/* flex div */}
           <div className="flex lg:flex-row flex-col w-full gap-[10px] lg:gap-5 ">
             {/* image div */}
@@ -106,7 +106,7 @@ const Featured = () => {
                 <img
                   src="https://i.ibb.co.com/TWs3VKr/0000151-face.jpg"
                   alt=""
-                  className=" w-full lg:h-auto h-32 object-cover"
+                  className=" w-full lg:h-auto h-32 2xl:h-[430px] object-cover"
                 />
                 <div className="absolute inset-0 bg-black opacity-20"></div>
 
