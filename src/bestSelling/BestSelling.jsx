@@ -18,7 +18,7 @@ const BestSelling = () => {
       </div>
 
         {/* all cards div */}
-      <div className="grid mt-3 lg:mt-10 lg:grid-cols-4 md:grid-cols-3 grid-cols-2 lg:gap-5 gap-2 gap-y-[24px] lg:gap-y-0">
+      <div className="grid mt-3 lg:mt-10 lg:grid-cols-4 md:grid-cols-2 grid-cols-2 lg:gap-5 gap-2 gap-y-[24px] lg:gap-y-0">
         {/* first card */}
         <div>
           <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">

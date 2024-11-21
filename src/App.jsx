@@ -29,23 +29,23 @@ function App() {
      <div className='lg:mt-20 mt-12'>
       <Featured></Featured>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] 2xl:mx-[40px] '>
+     <div className='lg:mt-20 mt-12 lg:px-[33px] 2xl:px-[0px] mx-auto container '>
      <Advertise></Advertise>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] 2xl:mx-[40px] mx-6 '>
+     <div className='lg:mt-20 mt-12 lg:px-[33px] 2xl:px-[0px] px-6 mx-auto container '>
      <NewArrivals></NewArrivals>
      </div>
      <div>
       <OurBrands></OurBrands>
      </div>
      <div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] 2xl:mx-[40px] '>
+     <div className='lg:mt-20 mt-12 lg:px-[33px] 2xl:px-[0px] mx-auto container  '>
      <Appoinment></Appoinment>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] 2xl:mx-[40px] '>
+     <div className='lg:mt-20 mt-12 lg:px-[33px] 2xl:px-[0px] mx-auto container  '>
      <BestSelling></BestSelling>
      </div>
-     <div className='lg:mt-20 mt-12 lg:mx-[108px] mx-6  2xl:mx-[40px]'>
+     <div className='lg:mt-20 mt-12 lg:px-[33px] 2xl:px-[0px] px-6 mx-auto container '>
      <BestProducts></BestProducts>
      </div>
      <div className='lg:mt-20 mt-12  '>

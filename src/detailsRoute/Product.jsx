@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { IoShareSocialOutline } from "react-icons/io5";
 import { LuHeart } from "react-icons/lu";
+import { MdStar } from "react-icons/md";
+import { VscComment } from "react-icons/vsc";
 
 const Product = () => {
   const [lensStyle, setLensStyle] = useState({ display: "none" });
@@ -32,7 +34,7 @@ const Product = () => {
         {/* Left Section (Image with Hover Zoom Trigger) */}
         <div className="w-1/2 relative">
           <img
-            className="w-[500px] h-auto object-cover transition-shadow duration-300 hover:shadow-lg"
+            className="w-[500px] h-auto object-cover transition-all duration-300 hover:brightness-75"
             src="https://i.ibb.co/RzB42Y2/0000101-the-ordinary-retinol-05-serum-415.png"
             alt="The Ordinary Retinol 0.5% Serum"
             onMouseMove={handleMouseMove}
@@ -47,13 +49,14 @@ const Product = () => {
             className="absolute"
             style={{
               ...lensStyle,
-              right: "115px", // Adjust the right value to position closer to the image
+              right: "115px", // Position of zoom lens
+              top: "10px", // Adjust as needed
               width: "500px",
               height: "500px",
               border: "1px solid gray",
               backgroundColor: "white",
               backgroundRepeat: "no-repeat",
-              backgroundSize: "200% 200%", // Adjust zoom level
+              backgroundSize: "300% 300%", // Adjust zoom level
               zIndex: 20,
             }}
           ></div>
@@ -111,6 +114,57 @@ const Product = () => {
           </div>
           {/* Horizontal Line */}
           <hr className="w-full lg:mt-5" />
+          <div className="mt-7 jost-font">
+            <div className="flex items-center gap-14">
+              <div>
+                <h1 className="text-3xl text-customBrown font-medium">
+                  1,990.00<span className="text-4xl font-semibold">৳</span>
+                </h1>
+              </div>
+              {/* rating and review flex */}
+              <div className="flex items-center gap-14">
+                <div className="flex  ">
+                  <div>
+                    <div className="flex lg:flex-row flex-col items-center gap-2">
+                      <div>
+                        <div className="flex items-center">
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                          <span>
+                            <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* review */}
+                <div className="flex items-center gap-[13px]">
+                  <div>
+                    <p>
+                      <VscComment className="text-xl" />
+                    </p>
+                  </div>
+                  <div>
+                    <p>0 Review</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

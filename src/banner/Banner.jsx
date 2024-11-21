@@ -20,7 +20,7 @@ const Banner = () => {
         loop={true}
       >
         <SwiperSlide>
-          <div className="bg-customPink w-full xl:h-[460px] 2xl:h-[72vh] lg:h-[370px] md:h-[270px] h-[280px] ">
+          <div className="bg-customPink w-full xl:h-[460px] 2xl:h-[560px] lg:h-[370px] md:h-[270px] h-[280px] ">
             <div className="container mx-auto flex flex-col lg:flex-row gap-2 2xl:gap-0 h-full px-4 md:px-8 lg:px-4 xl:px-[34px] 2xl:px-5 xl:gap-[15px]  ">
               {/* Left Side Content */}
               <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center text-center lg:text-left my-auto">
@@ -56,7 +56,7 @@ const Banner = () => {
                 <img
                   src="https://i.ibb.co.com/8jkzyCj/3.png"
                   alt="Banner"
-                  className="h-[460px]  w-[500px] object-cover"
+                  className="h-[460px] 2xl:h-[560px] 2xl:w-full w-[500px] object-cover"
                 />
               </div>
             </div>
@@ -65,7 +65,7 @@ const Banner = () => {
 
         {/* Repeat for other SwiperSlides */}
         <SwiperSlide>
-          <div className="bg-customPink w-full xl:h-[460px]  2xl:h-[72vh] lg:h-[370px] md:h-[270px] h-[280px] ">
+          <div className="bg-customPink w-full xl:h-[460px]  2xl:h-[560px] lg:h-[370px] md:h-[270px] h-[280px] ">
             <div className="container mx-auto flex flex-col lg:flex-row gap-2  2xl:gap-0 h-full px-4 md:px-8 lg:px-4 xl:xl:px-[34px] 2xl:px-5  ">
               {/* Left Side Content */}
               <div className="w-full lg:w-1/2 flex flex-col items-center lg:items-start justify-center text-center lg:text-left my-auto">
@@ -103,7 +103,7 @@ const Banner = () => {
                 <img
                   src="https://i.ibb.co.com/Rh7MggB/2.png"
                   alt="Banner"
-                  className="h-[460px]  w-[500px] object-cover"
+                  className="h-[460px] 2xl:h-[560px] 2xl:w-full  w-[500px] object-cover"
                 />
               </div>
             </div>
@@ -112,7 +112,7 @@ const Banner = () => {
 
         {/* Additional SwiperSlide */}
         <SwiperSlide>
-          <div className="bg-customPink w-full xl:h-[460px]  2xl:h-[72vh] lg:h-[370px] md:h-[270px] h-[280px] ">
+          <div className="bg-customPink w-full xl:h-[460px]  2xl:h-[560px] lg:h-[370px] md:h-[270px] h-[280px] ">
             <div className="container w-full xl:gap-40 lg:gap-32  mx-auto flex flex-col lg:flex-row gap-2  2xl:gap-0 h-full px-4 md:px-8 lg:px-4 xl:xl:px-[34px] 2xl:px-5  ">
               {/* Left Side Content */}
               <div className="w-full lg:w-1/2  flex flex-col items-center lg:items-start justify-center lg:gap-[2px] md:text-[24px] gap-2 lg:px-0 px-6 text-center lg:text-left  mt-auto mb-auto">
@@ -147,7 +147,7 @@ const Banner = () => {
                 <img
                   src="https://i.ibb.co.com/drj3ByC/1.png"
                   alt="Banner"
-                  className="h-[460px]  w-[500px] object-cover"
+                  className="h-[460px] 2xl:h-[560px] 2xl:w-full  w-[500px] object-cover"
                 />
               </div>
             </div>

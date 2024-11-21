@@ -7,11 +7,11 @@ import { MdStar } from "react-icons/md";
 const OurBrands = () => {
   return (
     <div>
-      <div className="bg-[#F2F1F0] lg:h-[100vh] w-full">
+      <div className="bg-[#F2F1F0] lg:h-[630px] w-full">
         {/* content div */}
         <div className="lg:pt-20 pt-10 pb-10 md:py-8">
           {/* main content */}
-          <div className="flex justify-between custom-font   lg:mx-[108px] mx-6 ">
+          <div className="flex justify-between custom-font   lg:px-[33px] 2xl:px-[0px] px-6 mx-auto container ">
             <h2 className="lg:text-4xl text-customBrown  text-2xl font-bold lg:ml-[112px] md:ml-24 ml-16 ">
               Our Brands
             </h2>
@@ -19,11 +19,11 @@ const OurBrands = () => {
           </div>
 
           {/* Divider line */}
-          <div className="flex justify-start lg:mx-[108px] mx-6">
+          <div className="flex justify-start lg:px-[33px] 2xl:px-[0px] px-6 mx-auto container">
             <hr className="lg:w-[135px] md:w-[120px] w-[80px] bg-opacity-50 bg-customBrown h-[4px] relative" />
           </div>
 
-          <div className="flex lg:flex-row flex-col w-full lg:gap-[100px] gap-5 lg:px-[108px]">
+          <div className="flex lg:flex-row flex-col w-full lg:gap-[100px] gap-5 lg:px-[33px] 2xl:px-[0px] px-6 mx-auto container">
             {/* list div */}
             <div className="lg:w-1/4 w-full lg:px-0 px-6 mt-10">
               <div className="flex lg:flex-col flex-wrap lg:flex-nowrap gap-5 custom-font text-lg lg:text-2xl justify-center text-center lg:text-start">

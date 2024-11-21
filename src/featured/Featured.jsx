@@ -9,6 +9,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { LuHeart } from "react-icons/lu";
 import { IoIosArrowBack } from "react-icons/io";
 import "swiper/swiper-bundle.css";
+import { Link } from "react-router-dom";
 
 const Featured = () => {
   const swiperRef = useRef(null);
@@ -79,7 +80,7 @@ const Featured = () => {
         </div>
 
         {/* slider button */}
-        <div className="mt-2 lg:mx-24 2xl:mx-[40px] lg:block hidden">
+        <div className="mt-2 lg:px-[33px] 2xl:px-[0px] px-6 mx-auto container lg:block hidden">
           <div className="flex justify-end">
             <div className="flex gap-2">
               <div>
@@ -97,7 +98,7 @@ const Featured = () => {
         </div>
 
         {/* sliders */}
-        <div className="mt-3 lg:mx-[108px] 2xl:mx-[40px]  ">
+        <div className="mt-3 lg:px-[33px] 2xl:px-[0px] mx-auto container  ">
           {/* flex div */}
           <div className="flex lg:flex-row flex-col w-full gap-[10px] lg:gap-5 ">
             {/* image div */}
@@ -170,11 +171,12 @@ const Featured = () => {
                 className="mySwiper w-full"
               >
                 <SwiperSlide>
+                  <Link to={'/details'}>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
-                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
+                      <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                         30% <br />
                         Off
                       </span>
@@ -188,7 +190,7 @@ const Featured = () => {
                       <img
                         src="https://i.ibb.co.com/QDn8H2g/0000022-cerave-hydrating-facial-cleanser-415-1.png"
                         alt="The Ordinary Retinol 0.5% Serum"
-                        className=" xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px]  h-auto"
+                        className="xl:w-[170px] lg:w-[170px] md:w-[170px] 2xl:w-[170px] w-[135px] h-auto"
                       />
 
                       {/* Add to Cart Button */}
@@ -233,13 +235,14 @@ const Featured = () => {
                         1,953.00৳
                       </p>
                     </div>
-                  </div>
+                  </div></Link>
                 </SwiperSlide>
 
                 <SwiperSlide>
+                  <Link to={'/details'}>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         30% <br />
@@ -300,14 +303,14 @@ const Featured = () => {
                         2,415.00৳
                       </p>
                     </div>
-                  </div>
+                  </div></Link>
                 </SwiperSlide>
 
                 {/* Additional slides */}
                 <SwiperSlide>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         50% <br />
@@ -374,7 +377,7 @@ const Featured = () => {
                 <SwiperSlide>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs  px-3 py-2">
                         50% <br />
@@ -435,7 +438,7 @@ const Featured = () => {
                 <SwiperSlide>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                         50% <br />
@@ -496,7 +499,7 @@ const Featured = () => {
                 <SwiperSlide>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
                       <span className="absolute top-0 left-0 bg-customBrown text-white text-[10px] lg:text-xs font-semibold px-4 py-2">
                         New
@@ -556,7 +559,7 @@ const Featured = () => {
                 <SwiperSlide>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
                       <span className="absolute top-0 left-0 bg-customBrown text-white text-[10px] lg:text-xs font-semibold px-4 py-2">
                         New
@@ -616,7 +619,7 @@ const Featured = () => {
                 <SwiperSlide>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
                       <span className="absolute top-0 left-0 bg-customBrown text-white text-[10px] lg:text-xs font-semibold px-4 py-2">
                         New
@@ -676,7 +679,7 @@ const Featured = () => {
                 <SwiperSlide>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
-                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                    <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
                       <span className="absolute top-0 left-0 bg-customBrown text-white text-[10px] lg:text-xs font-semibold px-4 py-2">
                         New

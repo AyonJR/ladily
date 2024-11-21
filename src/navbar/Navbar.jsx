@@ -45,7 +45,7 @@ const Navbar = () => {
           </a>
 
           {/* Icons and hamburger for mobile view */}
-          <div className="flex items-center xl:hidden md:hidden  space-x-5   justify-end  flex-grow ">
+          <div className="flex items-center lg:hidden xl:hidden   space-x-5   justify-end  flex-grow ">
             <a href="#">
               <FiUser className="text-lg" />
             </a>
@@ -84,38 +84,39 @@ const Navbar = () => {
           </div>
 
           {/* Icons for larger screens */}
-          <ul className="hidden md:flex gap-5  items-center lg:my-[6px] lg:mr-[2px]">
-            <li className="flex items-center  lg:mb-2 border-b border-customBrown w-[300px]">
-              <input
-                className="w-full py-[2px] pr-8 outline-none font-bold placeholder-black custom-font"
-                type="search"
-                name="Search"
-                placeholder="Search in Ladily"
-              />
-              <RiSearchLine className="text-lg" />
-            </li>
-            <li className="flex items-center lg:ml-1">
-              <a href="#">
-                <FiUser className="text-lg" />
-              </a>
-            </li>
-            <li className="relative flex items-center">
-              <a href="#">
-                <LuHeart className="text-lg" />
-                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-[10px]  rounded-full h-4 w-4 flex items-center jost-font justify-center">
-                  0
-                </span>
-              </a>
-            </li>
-            <li className="relative flex items-center">
-              <a href="#">
-                <FiShoppingCart className="text-lg" />
-                <span className="absolute -top-2 -right-2 bg-customBrown text-white text-[10px]  rounded-full h-4 w-4 flex jost-font items-center justify-center">
-                  0
-                </span>
-              </a>
-            </li>
-          </ul>
+          <ul className="hidden lg:flex gap-5 items-center lg:my-[6px] lg:mr-[2px]">
+  <li className="flex items-center lg:mb-2 border-b border-customBrown w-[300px]">
+    <input
+      className="w-full py-[2px] pr-8 outline-none font-bold placeholder-black custom-font"
+      type="search"
+      name="Search"
+      placeholder="Search in Ladily"
+    />
+    <RiSearchLine className="text-lg" />
+  </li>
+  <li className="flex items-center lg:ml-1">
+    <a href="#">
+      <FiUser className="text-lg" />
+    </a>
+  </li>
+  <li className="relative flex items-center">
+    <a href="#">
+      <LuHeart className="text-lg" />
+      <span className="absolute -top-2 -right-2 bg-customBrown text-white text-[10px] rounded-full h-4 w-4 flex items-center jost-font justify-center">
+        0
+      </span>
+    </a>
+  </li>
+  <li className="relative flex items-center">
+    <a href="#">
+      <FiShoppingCart className="text-lg" />
+      <span className="absolute -top-2 -right-2 bg-customBrown text-white text-[10px] rounded-full h-4 w-4 flex jost-font items-center justify-center">
+        0
+      </span>
+    </a>
+  </li>
+</ul>
+
         </div>
       </header>
 

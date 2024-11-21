@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-[#F2F1F0]  w-full">
-        <div className="flex lg:flex-row flex-col lg:gap-[12px] gap-10 lg:mx-[108px] mx-4 py-10 ">
+        <div className="flex lg:flex-row flex-col lg:gap-[12px] gap-10 lg:px-[33px] 2xl:px-[0px] mx-auto container px-6 py-10 ">
           {/* left div */}
           <div className="w-2/3 md:w-full">
             <div className="grid lg:grid-cols-4 md:grid-cols-4 grid-cols-1 lg:gap-4 gap-7">
@@ -143,10 +143,10 @@ const Footer = () => {
 
           {/* right div */}
           <div className="lg:w-1/3  ">
-            <div className="flex lg:flex-col md:flex-row flex-col gap-2 lg:gap-5">
+            <div className="flex lg:flex-col md:flex-row flex-col gap-2 md:justify-between  lg:gap-5">
               <h2 className="text-2xl custom-font font-bold">
-                Be the First To Know, <br />
-                Subscribe To Our Newsletter!
+                Be the First To Know, <br className="hidden lg:block" />
+                Subscribe To <br className="lg:hidden md:block" /> Our <br className="hidden lg:block" /> Newsletter!
               </h2>
               <div className="flex  gap-3">
                 <input
@@ -167,7 +167,7 @@ const Footer = () => {
 
       {/* copyright div */}
       <div className="bg-[#543310]">
-        <div className="lg:mx-[108px] mx-4">
+        <div className="lg:px-[33px] 2xl:px-[0px] mx-auto container  px-6">
           <div className="flex lg:justify-between lg:flex-row flex-col justify-center items-center text-white py-[22px]">
             <p className="custom-font text-lg">
               Copyright © 2024 Ladily. All rights reserved.
