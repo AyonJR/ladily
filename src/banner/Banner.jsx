@@ -56,7 +56,7 @@ const Banner = () => {
                 <img
                   src="https://i.ibb.co.com/8jkzyCj/3.png"
                   alt="Banner"
-                  className="h-[460px] 2xl:h-[560px] 2xl:w-full w-[500px] object-cover"
+                  className="h-[460px] lg:h-full 2xl:h-[560px] 2xl:w-full w-[500px] object-cover"
                 />
               </div>
             </div>
@@ -103,7 +103,7 @@ const Banner = () => {
                 <img
                   src="https://i.ibb.co.com/Rh7MggB/2.png"
                   alt="Banner"
-                  className="h-[460px] 2xl:h-[560px] 2xl:w-full  w-[500px] object-cover"
+                  className="h-[460px]  2xl:h-[560px] 2xl:w-full  w-[500px] object-cover"
                 />
               </div>
             </div>

@@ -3,6 +3,8 @@ import { IoShareSocialOutline } from "react-icons/io5";
 import { LuHeart } from "react-icons/lu";
 import { MdStar } from "react-icons/md";
 import { VscComment } from "react-icons/vsc";
+import { AiOutlineMinus } from "react-icons/ai";
+import { GoPlus } from "react-icons/go";
 
 const Product = () => {
   const [lensStyle, setLensStyle] = useState({ display: "none" });
@@ -61,7 +63,7 @@ const Product = () => {
             }}
           ></div>
 
-          <div className="flex gap-10 items-start mt-10">
+          <div className="flex gap-10 items-start mt-2">
             <h1 className="text-4xl font-extrabold custom-font">
               The Ordinary Retinol 0.5% Serum
             </h1>
@@ -162,6 +164,46 @@ const Product = () => {
                     <p>0 Review</p>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div className="mt-7">
+              <h2 className="font-semibold">
+                Availability :{" "}
+                <span className="text-slate-700 font-normal">In stock</span>
+              </h2>
+            </div>
+            <div>
+              <hr className="w-full lg:mt-5" />
+            </div>
+            <div className="mt-5">
+              <p className="font-semibold">Size</p>
+              <div className="mt-3 bg-customPink rounded-lg w-1/5 flex items-center gap-2">
+                {/* Checkbox-like Div */}
+                <div className="flex ml-6 my-3 items-center justify-center w-5 h-5 rounded-full border border-customBrown">
+                  <div className="w-3 h-3 rounded-full bg-customBrown"></div>
+                </div>
+                {/* Text */}
+                <p>30 ml</p>
+              </div>
+              <div>
+                <hr className="w-full lg:mt-5" />
+              </div>
+
+              {/* count and button */}
+              <div className="mt-5">
+                <div className="flex">
+                   {/* button */}
+                   <div className="bg-customPink "> 
+                    <div className="flex gap-7 px-6 py-2">
+                    <button><AiOutlineMinus className="text-2xl" />
+                     </button>
+                     <p className="text-[22px]">1</p>
+                     <button><GoPlus className="text-3xl" />
+                     </button>
+                    </div>
+                   </div>
+                </div>
+
               </div>
             </div>
           </div>
