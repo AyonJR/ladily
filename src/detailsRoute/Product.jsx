@@ -42,6 +42,9 @@ const Product = () => {
   const handleMouseLeave = () => {
     setLensStyle({ display: "none" });
   };
+  const [selectedImage, setSelectedImage] = useState(
+    "https://i.ibb.co/RzB42Y2/0000101-the-ordinary-retinol-05-serum-415.png"
+  );
 
   return (
     <div className="lg:px-[32px] mx-auto container relative">
@@ -50,13 +53,13 @@ const Product = () => {
         <div className="w-1/2 relative">
           <img
             className="w-[500px] h-auto object-cover transition-all duration-300 hover:brightness-75"
-            src="https://i.ibb.co/RzB42Y2/0000101-the-ordinary-retinol-05-serum-415.png"
+            src={selectedImage}
             alt="The Ordinary Retinol 0.5% Serum"
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           />
-          <div>
-            <ProductSlider></ProductSlider>
+          <div className=" mt-5">
+            <ProductSlider setSelectedImage={setSelectedImage} selectedImage={selectedImage}></ProductSlider>
           </div>
         </div>
 

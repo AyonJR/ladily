@@ -4,9 +4,10 @@ import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-import { useCallback, useRef } from "react";
+import { useCallback, useRef, useState } from "react";
 
-const ProductSlider = () => {
+const ProductSlider = ({setSelectedImage , selectedImage}) => {
+  
   const swiperRef = useRef(null);
 
   const handleNext = () => {
@@ -24,10 +25,19 @@ const ProductSlider = () => {
     swiperRef.current = swiper;
   }, []);
 
+  const images = [
+    "https://i.ibb.co/RzB42Y2/0000101-the-ordinary-retinol-05-serum-415.png",
+    "https://i.ibb.co/C08tsdS/0000107-the-ordinary-retinol-05-serum.png",
+    "https://i.ibb.co/pw6JvQn/0000106-the-ordinary-retinol-05-serum.png",
+    "https://i.ibb.co/ySVXCwY/0000103-the-ordinary-retinol-05-serum.png",
+    "https://i.ibb.co/vjg9Y0F/0000104-the-ordinary-retinol-05-serum.png",
+    "https://i.ibb.co/CsQqpN6/0000102-the-ordinary-retinol-05-serum-100.png",
+  ];
+
   return (
     <div className="flex items-center justify-between ">
       {/* Left Arrow Button */}
-      <div className="ml-4">
+      <div className="">
         {" "}
         {/* Add margin on the left */}
         <button onClick={handlePrev}>
@@ -35,72 +45,40 @@ const ProductSlider = () => {
         </button>
       </div>
 
-      {/* Swiper */}
-      <Swiper
-        onSwiper={onSwiperInit}
-        slidesPerView={4}
-        spaceBetween={5}
-        pagination={{ clickable: true }}
-        speed={500}
-        loop={true}
-        breakpoints={{
-          320: { slidesPerView: 4, spaceBetween: 10 },
-          640: { slidesPerView: 4, spaceBetween: 15 },
-          768: { slidesPerView: 4, spaceBetween: 20 },
-          1024: { slidesPerView: 4, spaceBetween: 20 },
-          1500: { slidesPerView: 4, spaceBetween: 20 },
-        }}
-        className="mySwiper w-full mx-auto container ml-2"
-      >
-        <SwiperSlide>
-          <div className="border-2 w-[100px] border-slate-300">
-            <img
-              className="w-[100px]"
-              src="https://i.ibb.co.com/C08tsdS/0000107-the-ordinary-retinol-05-serum.png"
-              alt=""
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="border-2 w-[100px] border-slate-300">
-            <img
-              className="w-[100px]"
-              src="https://i.ibb.co.com/pw6JvQn/0000106-the-ordinary-retinol-05-serum.png"
-              alt=""
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="border-2 w-[100px] border-slate-300">
-            <img
-              className="w-[100px]"
-              src="https://i.ibb.co.com/ySVXCwY/0000103-the-ordinary-retinol-05-serum.png"
-              alt=""
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="border-2 w-[100px] border-slate-300">
-            <img
-              className="w-[100px]"
-              src="https://i.ibb.co.com/vjg9Y0F/0000104-the-ordinary-retinol-05-serum.png"
-              alt=""
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="border-2 w-[100px] border-slate-300">
-            <img
-              className="w-[100px]"
-              src="https://i.ibb.co.com/CsQqpN6/0000102-the-ordinary-retinol-05-serum-100.png"
-              alt=""
-            />
-          </div>
-        </SwiperSlide>
-      </Swiper>
+     {/* Swiper */}
+     <Swiper
+          onSwiper={onSwiperInit}
+          slidesPerView={4}
+          spaceBetween={5}
+          pagination={{ clickable: true }}
+          speed={500}
+          loop={true}
+          breakpoints={{
+            320: { slidesPerView: 2, spaceBetween: 10 },
+            640: { slidesPerView: 3, spaceBetween: 15 },
+            768: { slidesPerView: 4, spaceBetween: 10 },
+            1024: { slidesPerView: 5, spaceBetween: 15 },
+            1500: { slidesPerView: 4, spaceBetween: 15 },
+          }}
+          className="mySwiper w-full mx-auto container ml-2"
+        >
+          {images.map((image, index) => (
+            <SwiperSlide key={index}>
+            <div
+              className={`border-2 w-[80px] cursor-pointer ${
+                selectedImage === image ? "border-customBrown" : "border-slate-300"
+              }`}
+              onClick={() => setSelectedImage(image)}
+            >
+              <img className="w-full h-auto" src={image} alt={`Slide ${index + 1}`} />
+            </div>
+          </SwiperSlide>
+          
+          ))}
+        </Swiper>
 
       {/* Right Arrow Button */}
-      <div className="xl:mr-2 2xl:mr-8">
+      <div className="xl:mr-8 2xl:mr-8">
         {" "}
         {/* Add margin on the right */}
         <button onClick={handleNext}>
