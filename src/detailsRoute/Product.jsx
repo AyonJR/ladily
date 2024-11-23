@@ -5,10 +5,23 @@ import { MdStar } from "react-icons/md";
 import { VscComment } from "react-icons/vsc";
 import { AiOutlineMinus } from "react-icons/ai";
 import { GoPlus } from "react-icons/go";
+import { FiShoppingCart } from "react-icons/fi";
+import ProductSlider from "./ProductSlider";
 
 const Product = () => {
   const [lensStyle, setLensStyle] = useState({ display: "none" });
+  const [count, setCount] = useState(1);
 
+  const handleIncrement = () => {
+    setCount((count) => count + 1);
+  };
+
+  // Handle Decrement
+  const handleDecrement = () => {
+    if (count > 1) {
+      setCount((count) => count - 1);
+    }
+  };
   const handleMouseMove = (e) => {
     const img = e.target;
     const { left, top, width, height } = img.getBoundingClientRect();
@@ -32,7 +45,7 @@ const Product = () => {
 
   return (
     <div className="lg:px-[32px] mx-auto container relative">
-      <div className="w-full flex">
+      <div className="w-full flex gap-10">
         {/* Left Section (Image with Hover Zoom Trigger) */}
         <div className="w-1/2 relative">
           <img
@@ -42,6 +55,9 @@ const Product = () => {
             onMouseMove={handleMouseMove}
             onMouseLeave={handleMouseLeave}
           />
+          <div>
+            <ProductSlider></ProductSlider>
+          </div>
         </div>
 
         {/* Right Section (Product Details) */}
@@ -188,27 +204,39 @@ const Product = () => {
               <div>
                 <hr className="w-full lg:mt-5" />
               </div>
-
               {/* count and button */}
-              <div className="mt-5">
+              <div className="mt-5 flex items-center gap-4">
                 <div className="flex">
-                   {/* button */}
-                   <div className="bg-customPink "> 
+                  {/* Button */}
+                  <div className="bg-customPink">
                     <div className="flex gap-7 px-6 py-2">
-                    <button><AiOutlineMinus className="text-2xl" />
-                     </button>
-                     <p className="text-[22px]">1</p>
-                     <button><GoPlus className="text-3xl" />
-                     </button>
+                      <button onClick={handleDecrement}>
+                        <AiOutlineMinus className="text-2xl" />
+                      </button>
+                      {/* Fixed-width container for count */}
+                      <p className="text-[22px] w-[24px] text-center jost-font">
+                        {count}
+                      </p>
+                      <button onClick={handleIncrement}>
+                        <GoPlus className="text-3xl" />
+                      </button>
                     </div>
-                   </div>
+                  </div>
                 </div>
-
+                {/* Add to cart button */}
+                <div>
+                  <button className="flex items-center justify-center bg-customBrown text-white font-semibold py-3 px-20">
+                    <FiShoppingCart className="mr-2 text-xl" />
+                    Add to cart
+                  </button>
+                </div>
               </div>
+              
             </div>
           </div>
         </div>
       </div>
+      <div className="mt-48"></div>
     </div>
   );
 };

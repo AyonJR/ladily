@@ -172,7 +172,7 @@ const Featured = () => {
               >
                 <SwiperSlide>
                   <Link to={'/details'}>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+                  <div className="flex  flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
