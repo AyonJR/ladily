@@ -2,16 +2,17 @@ import Header from "../navbar/Header";
 import Navbar from "../navbar/Navbar";
 import { SlArrowRight } from "react-icons/sl";
 import Product from "./Product";
+import Overview from "./Overview";
 
 const Details = () => {
   return (
     <div>
       <Navbar></Navbar>
-      <div className="">
+      <div className="hidden lg:block">
         <Header></Header>
       </div>
       {/* details content */}
-      <div className="lg:px-[32px] px-6 mx-auto container   2xl:px-[40px] mt-20">
+      <div className="lg:px-[32px] px-6 mx-auto container hidden lg:block   2xl:px-[40px] mt-20">
         <div className="flex custom-font  items-center gap-[20px]">
           <p className="font-bold text-lg">Home</p>
           <p>
@@ -36,6 +37,7 @@ const Details = () => {
       <div className="mt-4">
         <Product></Product>
       </div>
+      
     </div>
   );
 };

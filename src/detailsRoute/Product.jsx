@@ -7,6 +7,7 @@ import { AiOutlineMinus } from "react-icons/ai";
 import { GoPlus } from "react-icons/go";
 import { FiShoppingCart } from "react-icons/fi";
 import ProductSlider from "./ProductSlider";
+import Overview from "./Overview";
 
 const Product = () => {
   const [lensStyle, setLensStyle] = useState({ display: "none" });
@@ -52,7 +53,7 @@ const Product = () => {
         {/* Left Section (Image with Hover Zoom Trigger) */}
         <div className="w-1/2 relative">
           <img
-            className="w-[500px] h-auto object-cover transition-all duration-300 hover:brightness-75"
+            className="w-[500px] mt-[10px] h-auto object-cover transition-all duration-300 hover:brightness-75"
             src={selectedImage}
             alt="The Ordinary Retinol 0.5% Serum"
             onMouseMove={handleMouseMove}
@@ -239,7 +240,9 @@ const Product = () => {
           </div>
         </div>
       </div>
-      <div className="mt-48"></div>
+      <div className="mt-14">
+        <Overview></Overview>
+      </div>
     </div>
   );
 };
