@@ -41,7 +41,7 @@ const ProductSlider = ({setSelectedImage , selectedImage}) => {
         {" "}
         {/* Add margin on the left */}
         <button onClick={handlePrev}>
-          <IoIosArrowBack className="text-xs text-customBrown lg:text-3xl" />
+          <IoIosArrowBack className=" text-customBrown text-3xl" />
         </button>
       </div>
 
@@ -54,11 +54,11 @@ const ProductSlider = ({setSelectedImage , selectedImage}) => {
           speed={500}
           loop={true}
           breakpoints={{
-            320: { slidesPerView: 2, spaceBetween: 10 },
-            640: { slidesPerView: 3, spaceBetween: 15 },
-            768: { slidesPerView: 4, spaceBetween: 10 },
+            320: { slidesPerView: 4, spaceBetween: 10 },
+            640: { slidesPerView: 4, spaceBetween: 15 },
+            768: { slidesPerView: 6, spaceBetween: 10 },
             1024: { slidesPerView: 5, spaceBetween: 15 },
-            1500: { slidesPerView: 4, spaceBetween: 15 },
+            1500: { slidesPerView: 5, spaceBetween: 15 },
           }}
           className="mySwiper w-full mx-auto container ml-2"
         >
@@ -82,7 +82,7 @@ const ProductSlider = ({setSelectedImage , selectedImage}) => {
         {" "}
         {/* Add margin on the right */}
         <button onClick={handleNext}>
-          <IoIosArrowForward className="text-xs text-customBrown lg:text-3xl" />
+          <IoIosArrowForward className=" text-customBrown text-3xl" />
         </button>
       </div>
     </div>

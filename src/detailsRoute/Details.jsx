@@ -34,7 +34,7 @@ const Details = () => {
       <div className="lg:px-[32px] mx-auto container">
         <hr className="w-full lg:mt-6" />
       </div>
-      <div className="mt-4">
+      <div className="mt-4  px-6">
         <Product></Product>
       </div>
       
