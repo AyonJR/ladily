@@ -59,7 +59,7 @@ const Product = () => {
 
   return (
     <div className="lg:px-[32px] mx-auto container relative">
-      <div className="w-full lg:flex  gap-5 lg:gap-10">
+      <div className="w-full lg:flex  gap-5 lg:gap-5">
         {/* Left Section (Image with Hover Zoom Trigger) */}
         <div className="lg:w-1/2 relative">
           {/* Image */}
@@ -138,31 +138,37 @@ const Product = () => {
             </p>
           </div>
           {/* Horizontal Line */}
-          <hr className="w-full lg:mt-5" />
+          <hr className="w-full mt-5" />
           <div className="mt-5 gap-8 flex jost-font">
             <div>
-              <p className="font-semibold">Targets</p>
-              <div className="mt-1 text-slate-700 lg:text-base text-sm">
-                <p>Signs of Aging, Dryness,</p>
-                <p>Textural Irregularities,</p>
-                <p>Uneven Skin Tone</p>
-              </div>
-              <div className="mt-4">
-                <p className="font-semibold">Suited to</p>
-                <div className="mt-1 text-slate-700 lg:text-base text-sm">
-                  <p>All Skin Types</p>
+              <div className="flex  gap-16">
+                <div>
+                  <p className="font-semibold">Targets</p>
+                  <div className="mt-1 text-slate-700 lg:text-base text-sm">
+                    <p>Signs of Aging, Dryness,</p>
+                    <p>Textural Irregularities,</p>
+                    <p>Uneven Skin Tone</p>
+                  </div>
+                </div>
+                <div>
+                  <p className="font-semibold">Format</p>
+                  <div className="mt-1 text-slate-700 lg:text-base text-sm">
+                    <p>Anhydrous Serum</p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div>
-              <p className="font-semibold">Format</p>
-              <div className="mt-1 text-slate-700 lg:text-base text-sm">
-                <p>Anhydrous Serum</p>
-              </div>
-              <div className="mt-16">
-                <p className="font-semibold">Key ingredients</p>
-                <div className="mt-1 text-slate-700 lg:text-base text-sm">
-                  <p>Retinol, Squalane</p>
+              <div className="mt-4 flex lg:flex-row flex-col lg:gap-[138px] gap-4">
+                <div>
+                  <p className="font-semibold">Suited to</p>
+                  <div className="mt-1 text-slate-700 lg:text-base text-sm">
+                    <p>All Skin Types</p>
+                  </div>
+                </div>
+                <div className="">
+                  <p className="font-semibold">Key ingredients</p>
+                  <div className="mt-1 text-slate-700 lg:text-base text-sm">
+                    <p>Retinol, Squalane</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -171,66 +177,65 @@ const Product = () => {
           <hr className="w-full mt-7" />
           <div className="mt-7 jost-font">
             <div className="flex lg:justify-start justify-center">
-            <div className="flex lg:flex-row flex-col items-center lg:items-center gap-5">
-              {/* Price */}
-              <div className="order-1 lg:order-none">
-                <h1 className="text-3xl text-customBrown font-medium">
-                  1,990.00
-                  <span className="lg:text-4xl font-semibold">৳</span>
-                </h1>
+              <div className="flex lg:flex-row flex-col items-center lg:items-center gap-5">
+                {/* Price */}
+                <div className="order-1 lg:order-none">
+                  <h1 className="text-3xl text-customBrown font-medium">
+                    1,990.00
+                    <span className="lg:text-4xl font-semibold">৳</span>
+                  </h1>
+                </div>
+
+                {/* Rating and Review */}
+                <div className="flex flex-col lg:flex-row lg:items-center items-start gap-4 lg:gap-14 order-2 lg:order-none">
+                  {/* Rating Section */}
+                  <div className="flex lg:flex-row  gap-5 lg:gap-8">
+                    <div className="flex  items-center gap-2">
+                      <div className="flex justify-center lg:justify-start">
+                        <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                        <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                        <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                        <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                        <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
+                      </div>
+                      <div>
+                        <p className="lg:text-base text-sm">0.00</p>
+                      </div>
+                    </div>
+
+                    {/* Review Section */}
+                    <div className="bg-customPink px-3 py-2">
+                      <div className="flex items-center gap-2 lg:gap-[13px]">
+                        <div>
+                          <VscComment className="text-xl" />
+                        </div>
+                        <div>
+                          <p>0 Review</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
 
-              {/* Rating and Review */}
-              <div className="flex flex-col lg:flex-row lg:items-center items-start gap-4 lg:gap-14 order-2 lg:order-none">
-                {/* Rating Section */}
-               <div className="flex lg:flex-row  gap-5 lg:gap-8">
-               <div className="flex  items-center gap-2">
-                  <div className="flex justify-center lg:justify-start">
-                    <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
-                    <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
-                    <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
-                    <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
-                    <MdStar className="lg:text-lg text-lg text-[#CFCFCE]" />
-                  </div>
-                  <div>
-                    <p className="lg:text-base text-sm">0.00</p>
-                  </div>
-                </div>
-
-                {/* Review Section */}
-                <div className="bg-customPink px-3 py-2">
-                <div className="flex items-center gap-2 lg:gap-[13px]">
-                  <div>
-                    <VscComment className="text-xl" />
-                  </div>
-                  <div>
-                    <p>0 Review</p>
-                  </div>
-                </div>
-                </div>
-               </div>
+            <div className="flex justify-center lg:justify-start">
+              <div className="mt-7 ">
+                <h2 className="font-semibold">
+                  Availability :{" "}
+                  <span className="text-slate-700 font-normal">In stock</span>
+                </h2>
               </div>
             </div>
-            </div>
-
-           <div className="flex justify-center">
-           <div className="mt-7 ">
-              <h2 className="font-semibold">
-                Availability :{" "}
-                <span className="text-slate-700 font-normal">In stock</span>
-              </h2>
-            </div>
-           </div>
             <div>
               <hr className="w-full mt-7" />
             </div>
             <div className="mt-5">
               <div className="flex justify-center lg:justify-start">
                 <div className=" lg:text-left">
-                <div className="flex justify-center lg:justify-start">
-                <p className="font-semibold">Size</p>
-
-                </div>
+                  <div className="flex justify-center lg:justify-start">
+                    <p className="font-semibold">Size</p>
+                  </div>
                   <div className="mt-3 bg-customPink  w-[120px]  flex items-center gap-4 mx-auto lg:mx-0 px-4 py-3">
                     {/* Checkbox-like Div */}
                     <div className="flex items-center justify-center w-5 h-5 rounded-full border border-customBrown shrink-0">
@@ -246,27 +251,25 @@ const Product = () => {
                 <hr className="w-full lg:mt-5 lg:block hidden" />
               </div>
               {/* count and button */}
-              <div className="mt-5 flex items-center gap-4">
-                <div className="flex">
-                  {/* Button */}
-                  <div className="bg-customPink">
-                    <div className="flex gap-7 px-6 py-2">
-                      <button onClick={handleDecrement}>
-                        <AiOutlineMinus className="text-2xl" />
-                      </button>
-                      {/* Fixed-width container for count */}
-                      <p className="text-[22px] w-[24px] text-center jost-font">
-                        {count}
-                      </p>
-                      <button onClick={handleIncrement}>
-                        <GoPlus className="text-3xl" />
-                      </button>
-                    </div>
+              <div className="mt-5 flex items-center lg:gap-4 gap-2 fixed bottom-0 left-0 w-full bg-white px-4 py-3 z-50 lg:static">
+                {/* Quantity Selector */}
+                <div className="bg-customPink w-[130px] lg:w-[170px]">
+                  <div className="flex gap-2 px-4 py-2 items-center justify-between">
+                    <button onClick={handleDecrement}>
+                      <AiOutlineMinus className="text-2xl" />
+                    </button>
+                    {/* Fixed-width container for count */}
+                    <p className="text-[22px] w-[24px] text-center jost-font">
+                      {count}
+                    </p>
+                    <button onClick={handleIncrement}>
+                      <GoPlus className="text-3xl" />
+                    </button>
                   </div>
                 </div>
-                {/* Add to cart button */}
-                <div>
-                  <button className="flex items-center justify-center bg-customBrown text-white font-semibold py-3 px-20">
+                {/* Add to Cart Button */}
+                <div className="flex-grow">
+                  <button className="flex items-center justify-center bg-customBrown text-white font-semibold py-3 w-full  lg:w-[280px]">
                     <FiShoppingCart className="mr-2 text-xl" />
                     Add to cart
                   </button>
