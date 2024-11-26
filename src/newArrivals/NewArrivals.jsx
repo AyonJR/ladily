@@ -9,6 +9,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { LuHeart } from "react-icons/lu";
 import { IoIosArrowBack } from "react-icons/io";
 import "swiper/swiper-bundle.css";
+import { Link } from "react-router-dom";
 
 const NewArrivals = () => {
   const swiperRef = useRef(null);
@@ -98,9 +99,10 @@ const NewArrivals = () => {
           className="mySwiper w-full"
         >
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -119,10 +121,10 @@ const NewArrivals = () => {
                 />
 
                 {/* Add to Cart Button */}
-                <button className="absolute  bottom-1 left-1/2 transform -translate-x-1/2 translate-y-full bg-customBrown text-white font-semibold py-3 w-full px-4 transition-all duration-300 hover:bg-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0 hidden lg:flex items-center justify-center">
-                  <FiShoppingCart className="mr-2 text-xl" />
-                  ADD TO CART
-                </button>
+                <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 translate-y-full bg-customBrown text-white font-semibold py-3 w-full px-4 transition-all duration-300 hover:bg-black opacity-0 group-hover:opacity-100 group-hover:translate-y-0 hidden lg:flex items-center justify-center">
+                        <FiShoppingCart className="mr-2 text-xl" />
+                        ADD TO CART
+                      </button>
               </div>
 
               <h3 className="lg:text-lg text-sm pt-2 lg:pt-5 font-medium text-customBrown">
@@ -154,12 +156,13 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -214,13 +217,14 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
           {/* Additional slides */}
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -275,12 +279,13 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -335,14 +340,15 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
 
 
           <SwiperSlide>
-            <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+           <Link to={'/details'}>
+           <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -397,12 +403,13 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -457,14 +464,15 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
           
           
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -519,12 +527,13 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -579,12 +588,13 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -639,12 +649,13 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>{" "}
           <SwiperSlide>
+            <Link to={'/details'}>
             <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
               {/* Image Container */}
-              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+              <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                 {/* New Badge */}
                 <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                   New
@@ -699,7 +710,7 @@ const NewArrivals = () => {
               <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                 1,990.00৳
               </p>
-            </div>
+            </div></Link>
           </SwiperSlide>
           <div className="mt-10"></div>
         </Swiper>

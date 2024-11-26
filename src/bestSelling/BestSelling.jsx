@@ -3,6 +3,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { LuHeart } from "react-icons/lu";
 import { MdStar } from "react-icons/md";
 import { MdArrowOutward } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const BestSelling = () => {
   return (
@@ -20,7 +21,7 @@ const BestSelling = () => {
         {/* all cards div */}
       <div className="grid mt-3 lg:mt-10 lg:grid-cols-4 md:grid-cols-2 grid-cols-2 lg:gap-5 gap-2 gap-y-[24px] lg:gap-y-0">
         {/* first card */}
-        <div>
+        <Link to={'/details'}><div>
           <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
             {/* Image Container */}
             <div className="bg-[#F7F7F7] w-full h-52 lg:h-80 flex items-center justify-center relative overflow-hidden">
@@ -41,10 +42,10 @@ const BestSelling = () => {
               <h3 className="lg:text-xl text-sm font-medium  mt-2">Cleanser</h3>
             </div>
           </div>
-        </div>
+        </div></Link>
 
         {/* second card */}
-        <div>
+        <Link to={'/details'}><div>
           <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
             {/* Image Container */}
             <div className="bg-[#F7F7F7] w-full h-52 lg:h-80 flex items-center justify-center relative overflow-hidden">
@@ -65,10 +66,10 @@ const BestSelling = () => {
               <h3 className="lg:text-xl text-sm font-medium  mt-2">Face</h3>
             </div>
           </div>
-        </div>
+        </div> </Link>
 
         {/* third card */}
-        <div>
+        <Link to={'/details'}><div>
           <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
             {/* Image Container */}
             <div className="bg-[#F7F7F7] w-full h-52 lg:h-80 flex items-center justify-center relative overflow-hidden">
@@ -89,9 +90,10 @@ const BestSelling = () => {
               <h3 className="lg:text-xl text-sm font-medium  mt-2">Sunscreen</h3>
             </div>
           </div>
-        </div>
+        </div></Link>
 
         {/* fourth card */}
+        <Link to={'/details'}>
         <div>
           <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
             {/* Image Container */}
@@ -113,7 +115,7 @@ const BestSelling = () => {
               <h3 className="lg:text-xl text-sm font-medium  mt-2">Moisturizer</h3>
             </div>
           </div>
-        </div>
+        </div></Link>
       </div>
     </div>
   );

@@ -3,6 +3,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { IoIosArrowForward } from "react-icons/io";
 import { LuHeart } from "react-icons/lu";
 import { MdStar } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const OurBrands = () => {
   return (
@@ -41,10 +42,11 @@ const OurBrands = () => {
             <div className="lg:w-3/4 w-full lg:px-0 px-6 flex-1 mt-10 ">
               <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-2 lg:gap-5 gap-2 ">
                 {/* first card */}
+                <Link to={'/details'}>
                 <div>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
+                  <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group ">
                     {/* Image Container */}
-                    <div className="w-full flex items-center justify-center bg-[#F7F7F7] lg:py-10 relative lg:border-b-[35px] py-5 border-white">
+                    <div className="w-full flex items-center justify-center bg-[#F7F7F7] lg:py-10 relative lg:border-b-[35px] py-5 border-white ">
                       {/* New Badge */}
                       <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                         30% <br />
@@ -106,10 +108,11 @@ const OurBrands = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div></Link>
 
                 {/* second card */}
-                <div>
+               <Link to={'/details'}>
+               <div>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
                     {/* Image Container */}
                     <div className="w-full flex items-center justify-center bg-[#F7F7F7] lg:py-10 relative lg:border-b-[35px] py-5 border-white">
@@ -174,9 +177,10 @@ const OurBrands = () => {
                       </p>
                     </div>
                   </div>
-                </div>
+                </div></Link> 
 
                 {/* third card */}
+                <Link to={'/details'}>
                 <div>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-2 space-y-1 group">
                     {/* Image Container */}
@@ -236,7 +240,7 @@ const OurBrands = () => {
                         2,415.00৳
                       </p>
                   </div>
-                </div>
+                </div></Link>
               </div>
             </div>
           </div>

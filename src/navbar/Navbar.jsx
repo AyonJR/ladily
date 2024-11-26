@@ -33,7 +33,7 @@ const Navbar = () => {
     <div className="flex items-center justify-between lg:h-[30px] h-5">
           <a
             rel="noopener noreferrer"
-            href="#"
+            href="/"
             aria-label="Back to homepage"
             className="flex items-center  lg:pl-2 pl-[24px]"
           >

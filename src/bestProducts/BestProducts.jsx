@@ -10,6 +10,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import { LuHeart } from "react-icons/lu";
 import { IoIosArrowBack } from "react-icons/io";
 import "swiper/swiper-bundle.css";
+import { Link } from "react-router-dom";
 
 const BestProducts = () => {
   const swiperRef = useRef(null);
@@ -104,9 +105,9 @@ const BestProducts = () => {
             className="mySwiper w-full"
           >
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+             <Link to={'/details'}> <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                     30% <br />
@@ -167,13 +168,13 @@ const BestProducts = () => {
                     1,953.00৳
                   </p>
                 </div>
-              </div>
+              </div></Link>
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+             <Link to={'/details'}> <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                     30% <br />
@@ -233,14 +234,14 @@ const BestProducts = () => {
                     2,415.00৳
                   </p>
                 </div>
-              </div>
+              </div> </Link>
             </SwiperSlide>
 
             {/* Additional slides */}
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+             <Link to={'/details'}> <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                     50% <br />
@@ -300,13 +301,13 @@ const BestProducts = () => {
                     1,923.00৳
                   </p>
                 </div>
-              </div>
+              </div></Link>
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+            <Link to={'/details'}>  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                     50% <br />
@@ -361,12 +362,12 @@ const BestProducts = () => {
                 <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                   1,890.00৳
                 </p>
-              </div>
+              </div></Link>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+              <Link to={'/details'}><div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute rounded-full top-2 left-2 bg-customBrown text-white text-[10px] lg:text-xs px-3 py-2">
                     50% <br />
@@ -421,12 +422,12 @@ const BestProducts = () => {
                 <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                   1,950.00৳
                 </p>
-              </div>
+              </div></Link>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+              <Link to={'/details'}><div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                     New
@@ -480,12 +481,12 @@ const BestProducts = () => {
                 <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                   3,150.00৳
                 </p>
-              </div>
+              </div></Link>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+              <Link to={'/details'}><div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                     New
@@ -539,12 +540,12 @@ const BestProducts = () => {
                 <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                   1,550.00৳
                 </p>
-              </div>
+              </div></Link>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+              <Link to={'/details'}> <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                     New
@@ -598,12 +599,12 @@ const BestProducts = () => {
                 <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                   1,990.00৳
                 </p>
-              </div>
+              </div> </Link>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+             <Link to={'/details'}> <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* New Badge */}
                   <span className="absolute top-0 left-0 bg-customBrown text-white text-xs font-semibold px-4 py-2">
                     New
@@ -657,13 +658,13 @@ const BestProducts = () => {
                 <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                   1,990.00৳
                 </p>
-              </div>
+              </div></Link>
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+             <Link to={'/details'}> <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                 {/* Image Container */}
-                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative">
+                <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                   {/* Heart Icon */}
                   <div className="absolute top-2 right-2 hidden lg:block transform translate-x-full bg-white text-customBrown p-2 rounded-full transition-all duration-300 opacity-0 group-hover:opacity-100 group-hover:translate-x-0">
                     <LuHeart className="text-xl" />
@@ -712,7 +713,7 @@ const BestProducts = () => {
                 <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                   2,150.00৳
                 </p>
-              </div>
+              </div></Link>
             </SwiperSlide>
 
             <div className="mt-10"></div>

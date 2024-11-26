@@ -308,7 +308,8 @@ const Featured = () => {
 
                 {/* Additional slides */}
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+                 <Link to={'/details'}>
+                 <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
@@ -371,10 +372,11 @@ const Featured = () => {
                         1,923.00৳
                       </p>
                     </div>
-                  </div>
+                  </div></Link>
                 </SwiperSlide>
 
                 <SwiperSlide>
+                  <Link to={'/details'}>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
@@ -434,9 +436,11 @@ const Featured = () => {
                       1,890.00৳
                     </p>
                   </div>
+                  </Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+                 <Link to={'/details'}>
+                 <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
@@ -494,9 +498,10 @@ const Featured = () => {
                     <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       1,950.00৳
                     </p>
-                  </div>
+                  </div></Link>
                 </SwiperSlide>
                 <SwiperSlide>
+                  <Link to={'/details'}>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
@@ -554,10 +559,11 @@ const Featured = () => {
                     <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       3,150.00৳
                     </p>
-                  </div>
+                  </div></Link>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
+                 <Link to={'/details'}>
+                 <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
                       {/* New Badge */}
@@ -614,9 +620,10 @@ const Featured = () => {
                     <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       1,550.00৳
                     </p>
-                  </div>
+                  </div></Link>
                 </SwiperSlide>
                 <SwiperSlide>
+                  <Link to={'/details'}>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
@@ -674,9 +681,10 @@ const Featured = () => {
                     <p className="lg:text-lg text-[12px] font-medium text-customBrown">
                       1,990.00৳
                     </p>
-                  </div>
+                  </div></Link>
                 </SwiperSlide>
                 <SwiperSlide>
+                  <Link to={'/details'}>
                   <div className="flex flex-col jost-font items-center text-center lg:space-y-[4px] space-y-1 group">
                     {/* Image Container */}
                     <div className="bg-[#F7F7F7] w-full  flex items-center justify-center lg:py-12 py-6 relative overflow-hidden">
@@ -735,6 +743,7 @@ const Featured = () => {
                       1,990.00৳
                     </p>
                   </div>
+                  </Link>
                 </SwiperSlide>
                 <div className="mt-11 lg:mt-12"></div>
               </Swiper>
