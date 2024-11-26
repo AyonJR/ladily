@@ -116,7 +116,7 @@ const Product = () => {
             ></div>
           </div>
 
-          <div className="lg:mt-2 mt-8 flex gap-10 items-start ">
+          <div className="lg:mt-2 mt-8 flex gap-10 items-start md:justify-between">
             <h1 className="lg:text-3xl text-xl font-medium lg:font-bold jost-font">
               The Ordinary Retinol 0.5% Serum
             </h1>
@@ -205,7 +205,7 @@ const Product = () => {
 
                     {/* Review Section */}
                     <div className="bg-customPink px-3 py-2">
-                      <div className="flex items-center gap-2 lg:gap-[13px]">
+                      <div className="flex items-center gap-2 lg:gap-[10px]">
                         <div>
                           <VscComment className="text-xl" />
                         </div>

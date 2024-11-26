@@ -3,6 +3,7 @@ import Navbar from "../navbar/Navbar";
 import { SlArrowRight } from "react-icons/sl";
 import Product from "./Product";
 import Overview from "./Overview";
+import Footer from "../footer/Footer";
 
 const Details = () => {
   return (
@@ -37,7 +38,9 @@ const Details = () => {
       <div className="mt-4  px-6">
         <Product></Product>
       </div>
-      
+      <div className="mt-40">
+        <Footer></Footer>
+      </div>
     </div>
   );
 };
