@@ -10,52 +10,44 @@ import ProductSlider from "./ProductSlider";
 import Overview from "./Overview";
 
 const Product = () => {
-  const [lensStyle, setLensStyle] = useState({ display: "none" });
-  const [count, setCount] = useState(1);
-
-  const handleIncrement = () => {
-    setCount((count) => count + 1);
-  };
-
-  // Handle Decrement
-  const handleDecrement = () => {
-    if (count > 1) {
-      setCount((count) => count - 1);
-    }
-  };
-  const handleMouseMove = (e) => {
-    const img = e.target;
-    const { left, top, width, height } = img.getBoundingClientRect();
-
-    // Calculate mouse position relative to the image
-    const x = e.clientX - left;
-    const y = e.clientY - top;
-
-    // Ensure mouse is within the image boundaries to avoid jittering
-    if (x < 0 || x > width || y < 0 || y > height) {
-      setLensStyle((prev) => ({ ...prev, display: "none" })); // Hide lens when mouse is out
-      return;
-    }
-
-    // Background position for zoom effect
-    const bgX = (x / width) * 100;
-    const bgY = (y / height) * 100;
-
-    setLensStyle({
-      display: "block",
-      backgroundPosition: `${bgX}% ${bgY}%`,
-      backgroundImage: `url(${img.src})`,
-      backgroundRepeat: "no-repeat",
-      backgroundSize: "300% 300%", // Adjust zoom level as needed
-    });
-  };
-
-  const handleMouseLeave = () => {
-    setLensStyle({ display: "none" });
-  };
-  const [selectedImage, setSelectedImage] = useState(
-    "https://i.ibb.co/RzB42Y2/0000101-the-ordinary-retinol-05-serum-415.png"
-  );
+    const [lensStyle, setLensStyle] = useState({ display: "none" });
+    const [count, setCount] = useState(1);
+    const [selectedImage, setSelectedImage] = useState(
+      "https://i.ibb.co/RzB42Y2/0000101-the-ordinary-retinol-05-serum-415.png"
+    );
+  
+    const handleIncrement = () => setCount((count) => count + 1);
+    const handleDecrement = () => count > 1 && setCount((count) => count - 1);
+  
+    // Mouse Movement Handler
+    const handleMouseMove = (e) => {
+      const img = e.target;
+      const { left, top, width, height } = img.getBoundingClientRect();
+  
+      const x = e.clientX - left;
+      const y = e.clientY - top;
+  
+      if (x < 0 || x > width || y < 0 || y > height) {
+        setLensStyle((prev) => ({ ...prev, display: "none" })); // Hide lens
+        return;
+      }
+  
+      const bgX = (x / width) * 100;
+      const bgY = (y / height) * 100;
+  
+      setLensStyle({
+        display: "block",
+        backgroundPosition: `${bgX}% ${bgY}%`,
+        backgroundImage: `url(${img.src})`,
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "300% 300%", 
+        pointerEvents: "none", 
+      });
+    };
+  
+    // Mouse Leave Handler
+    const handleMouseLeave = () => setLensStyle({ display: "none" });
+  
 
   return (
     <div className="lg:px-[32px] mx-auto container relative">
@@ -103,14 +95,14 @@ const Product = () => {
               className="absolute"
               style={{
                 ...lensStyle,
-                right: "115px", // Position of zoom lens
-                top: "10px", // Adjust as needed
+                right: "115px", 
+                top: "10px", 
                 width: "500px",
                 height: "500px",
                 border: "1px solid gray",
                 backgroundColor: "white",
                 backgroundRepeat: "no-repeat",
-                backgroundSize: "300% 300%", // Adjust zoom level
+                backgroundSize: "300% 300%", 
                 zIndex: 20,
               }}
             ></div>
